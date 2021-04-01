@@ -1,0 +1,12 @@
+C:\Users\kmlnd\git\algos\C#\basic13\obj\Debug\netcoreapp2.2\basic13.csprojAssemblyReference.cache
+C:\Users\kmlnd\git\algos\C#\basic13\obj\Debug\netcoreapp2.2\basic13.AssemblyInfoInputs.cache
+C:\Users\kmlnd\git\algos\C#\basic13\obj\Debug\netcoreapp2.2\basic13.AssemblyInfo.cs
+C:\Users\kmlnd\git\algos\C#\basic13\obj\Debug\netcoreapp2.2\basic13.csproj.CoreCompileInputs.cache
+C:\Users\kmlnd\git\algos\C#\basic13\bin\Debug\netcoreapp2.2\basic13.deps.json
+C:\Users\kmlnd\git\algos\C#\basic13\bin\Debug\netcoreapp2.2\basic13.runtimeconfig.json
+C:\Users\kmlnd\git\algos\C#\basic13\bin\Debug\netcoreapp2.2\basic13.runtimeconfig.dev.json
+C:\Users\kmlnd\git\algos\C#\basic13\bin\Debug\netcoreapp2.2\basic13.dll
+C:\Users\kmlnd\git\algos\C#\basic13\bin\Debug\netcoreapp2.2\basic13.pdb
+C:\Users\kmlnd\git\algos\C#\basic13\obj\Debug\netcoreapp2.2\basic13.dll
+C:\Users\kmlnd\git\algos\C#\basic13\obj\Debug\netcoreapp2.2\basic13.pdb
+C:\Users\kmlnd\git\algos\C#\basic13\obj\Debug\netcoreapp2.2\basic13.genruntimeconfig.cache

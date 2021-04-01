@@ -1,0 +1,16 @@
+C:\Users\kmlnd\git\algos\C#\basic13\bin\Debug\net5.0\basic13.deps.json
+C:\Users\kmlnd\git\algos\C#\basic13\bin\Debug\net5.0\basic13.dll
+C:\Users\kmlnd\git\algos\C#\basic13\bin\Debug\net5.0\ref\basic13.dll
+C:\Users\kmlnd\git\algos\C#\basic13\bin\Debug\net5.0\basic13.pdb
+C:\Users\kmlnd\git\algos\C#\basic13\obj\Debug\net5.0\basic13.csprojAssemblyReference.cache
+C:\Users\kmlnd\git\algos\C#\basic13\obj\Debug\net5.0\basic13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kmlnd\git\algos\C#\basic13\obj\Debug\net5.0\basic13.AssemblyInfoInputs.cache
+C:\Users\kmlnd\git\algos\C#\basic13\obj\Debug\net5.0\basic13.AssemblyInfo.cs
+C:\Users\kmlnd\git\algos\C#\basic13\obj\Debug\net5.0\basic13.csproj.CoreCompileInputs.cache
+C:\Users\kmlnd\git\algos\C#\basic13\obj\Debug\net5.0\basic13.dll
+C:\Users\kmlnd\git\algos\C#\basic13\obj\Debug\net5.0\ref\basic13.dll
+C:\Users\kmlnd\git\algos\C#\basic13\obj\Debug\net5.0\basic13.pdb
+C:\Users\kmlnd\git\algos\C#\basic13\bin\Debug\net5.0\basic13.exe
+C:\Users\kmlnd\git\algos\C#\basic13\bin\Debug\net5.0\basic13.runtimeconfig.json
+C:\Users\kmlnd\git\algos\C#\basic13\bin\Debug\net5.0\basic13.runtimeconfig.dev.json
+C:\Users\kmlnd\git\algos\C#\basic13\obj\Debug\net5.0\basic13.genruntimeconfig.cache
