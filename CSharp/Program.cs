@@ -119,9 +119,13 @@ class Program
         // BasicAlgorithms.FindGreaterThanYValues_Do_While(TestValues.TestIntegerArray,5);
         // BasicAlgorithms.FindGreaterThanYValues_While(TestValues.TestIntegerArray,5);
         
-        BasicAlgorithms.SquareTheValuesOfAnArray_For(TestValues.TestSquareArray);
-        BasicAlgorithms.SquareTheValuesOfAnArray_Do_While(TestValues.TestSquareArray);
-        BasicAlgorithms.SquareTheValuesOfAnArray_While(TestValues.TestSquareArray);
+        // BasicAlgorithms.SquareTheValuesOfAnArray_For(TestValues.TestSquareArray);
+        // BasicAlgorithms.SquareTheValuesOfAnArray_Do_While(TestValues.TestSquareArray);
+        // BasicAlgorithms.SquareTheValuesOfAnArray_While(TestValues.TestSquareArray);
+
+        BasicAlgorithms.ConvertToAbsoluteValues_For(TestValues.TestNegativeArray);
+        BasicAlgorithms.ConvertToAbsoluteValues_Do_While(TestValues.TestNegativeArray);
+        BasicAlgorithms.ConvertToAbsoluteValues_While(TestValues.TestNegativeArray);
         
         // PrintOdds();
         // PrintSum();
