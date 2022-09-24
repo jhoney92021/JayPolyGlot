@@ -1,30 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace CSharpBasics;
+﻿namespace CSharpBasics;
 
 class Program
 {
-    public static void ShiftValues(int[] numArray9)
-    {
-        // Given an integer array, say [1, 5, 10, 7, -2], 
-        // Write a function that shifts each number by one to the front and adds '0' to the end. 
-        // For example, when the program is done, if the array [1, 5, 10, 7, -2] is passed to the function, 
-        // it should become [5, 10, 7, -2, 0].
-        for (int idx=0;idx<numArray9.Length;idx++)
-        {
-            Console.WriteLine($"Old Number: {numArray9[idx]}");
-            if (numArray9[idx] == numArray9[numArray9.Length-1])
-            {
-                numArray9[idx] = 0;
-            }
-            else 
-            {
-                numArray9[idx] = numArray9[idx+1];
-            }
-            Console.WriteLine($"New Number: {numArray9[idx]}");
-        }
-    }
     public static object[] NumToString(int[] numArray10)
     {
         // Write a function that takes an integer array and returns an object array 
@@ -52,7 +29,7 @@ class Program
     static void Main(string[] args)
     {
         //Console.WriteLine("Hello World!");
-        
+
         //BasicAlgorithms.PrintTo255_For();
         //BasicAlgorithms.PrintTo255_Do_While();
         //BasicAlgorithms.PrintTo255_While();
@@ -93,10 +70,13 @@ class Program
         // BasicAlgorithms.ConvertToAbsoluteValues_Do_While(TestValues.TestNegativeArray);
         // BasicAlgorithms.ConvertToAbsoluteValues_While(TestValues.TestNegativeArray);
 
-        BasicAlgorithms.GetMinMaxAverageValues_For(TestValues.TestLargeArray);
-        BasicAlgorithms.GetMinMaxAverageValues_Do_While(TestValues.TestLargeArray);
-        BasicAlgorithms.GetMinMaxAverageValues_While(TestValues.TestLargeArray);
+        // BasicAlgorithms.GetMinMaxAverageValues_For(TestValues.TestLargeArray);
+        // BasicAlgorithms.GetMinMaxAverageValues_Do_While(TestValues.TestLargeArray);
+        // BasicAlgorithms.GetMinMaxAverageValues_While(TestValues.TestLargeArray);
         
+        BasicAlgorithms.ShiftArray_For(TestValues.TestLargeArray);
+        BasicAlgorithms.ShiftArray_Do_While(TestValues.TestLargeArray);
+        BasicAlgorithms.ShiftArray_While(TestValues.TestLargeArray);
         // PrintOdds();
         // PrintSum();
         /*int[] numArray2 = {1,12,3,4,6};
