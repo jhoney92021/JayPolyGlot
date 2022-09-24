@@ -1,6 +1,8 @@
 # JayPolyGlot -- learning programming basic cross lang #
 
 ### Quick Links ###
+* [C# Notes](./C#/README.md#jhoneys-csharp-notes)
+
 * [Ruby Notes](./Ruby/README.md#jhoneys-ruby-notes)
 
 ## Intent ##
