@@ -28,13 +28,17 @@ TestIntegerArray = [1, 12, 3, 4, 6]
 # IterateArray.While(TestIntegerArray)
 # IterateArray.DoUntil(TestIntegerArray)
 
-FindMaximumValue.For(TestIntegerArray)
-FindMaximumValue.While(TestIntegerArray)
-FindMaximumValue.DoUntil(TestIntegerArray)
+# FindMaximumValue.For(TestIntegerArray)
+# FindMaximumValue.While(TestIntegerArray)
+# FindMaximumValue.DoUntil(TestIntegerArray)
 
-FindAverageValue.For(TestIntegerArray)
-FindAverageValue.While(TestIntegerArray)
-FindAverageValue.DoUntil(TestIntegerArray)
+# FindAverageValue.For(TestIntegerArray)
+# FindAverageValue.While(TestIntegerArray)
+# FindAverageValue.DoUntil(TestIntegerArray)
+
+GreaterThanY.For(TestIntegerArray, 4)
+GreaterThanY.While(TestIntegerArray, 4)
+GreaterThanY.DoUntil(TestIntegerArray, 4)
 
 # FindOddValues.For(TestIntegerArray)
 # FindOddValues.While(TestIntegerArray)

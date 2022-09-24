@@ -111,7 +111,11 @@
     
     input:  [1, 3, 5, 7], 3
     output: [5,7]
+
 [FindGreaterThanYValues.cs](./CSharp/BasicAlgorithms/FindGreaterThanYValues.cs)
+
+[FindGreaterThanYValues.rb](./Ruby/BasicAlgorithms/FindGreaterThanYValues.rb)
+
 ## Square all values of an array ##
 
     Write a function that takes an integer array "numbers"
