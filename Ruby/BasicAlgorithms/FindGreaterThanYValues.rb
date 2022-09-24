@@ -2,9 +2,9 @@
 # That are greater than the "y" value. 
 # For example, if array = [1, 3, 5, 7] and y = 3. Your function should return 2 
 # (since there are two values in the array that are greater than 3).
-module GreaterThanY
+module FindGreaterThanYValues
 
-  def GreaterThanY.For(numArray, y)
+  def FindGreaterThanYValues.For(numArray, y)
     newArray = []
     for num in numArray
       if num > y
@@ -15,7 +15,7 @@ module GreaterThanY
     return newArray
   end
 
-  def GreaterThanY.While(numArray, y)
+  def FindGreaterThanYValues.While(numArray, y)
     iterator = 0
     newArray = []
     begin
@@ -28,7 +28,7 @@ module GreaterThanY
     return newArray
   end
 
-  def GreaterThanY.DoUntil(numArray, y)
+  def FindGreaterThanYValues.DoUntil(numArray, y)
     iterator = 0
     newArray = []
     until iterator == numArray.length do
