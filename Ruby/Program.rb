@@ -1,6 +1,7 @@
 $LOAD_PATH << "./BasicAlgorithms/"
 require "PrintTo255"
 require "PrintOddsTo255"
+require "PrintSum"
 require "For_Print_Sum"
 require "Until_Print_Sum"
 require "While_Print_Sum"
@@ -15,9 +16,13 @@ require "Positive_Array"
 # PrintTo255.DoWhile()
 # PrintTo255.DoUntil()
 
-PrintOddsTo255.For()
-PrintOddsTo255.DoWhile()
-PrintOddsTo255.DoUntil()
+# PrintOddsTo255.For()
+# PrintOddsTo255.DoWhile()
+# PrintOddsTo255.DoUntil()
+
+PrintSum.For()
+PrintSum.While()
+PrintSum.DoUntil()
 
 # For_Print_To255.Do()
 # While_Print_To255.Do()

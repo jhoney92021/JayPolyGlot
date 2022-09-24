@@ -37,7 +37,11 @@
     New number: 0 Sum: 0
     New number: 1 Sum: 1
     New Number: 2 Sum: 3
-[PrintOddsTo255.cs](./CSharp/BasicAlgorithms/PrintOddsTo255.cs)
+
+[PrintSum.cs](./CSharp/BasicAlgorithms/PrintSum.cs)
+
+[PrintSum.rb](./Ruby/BasicAlgorithms/PrintSum.rb)
+
 ## Iterate through an array ##
 
      Write a function that would iterate through each item of the given integer array 
