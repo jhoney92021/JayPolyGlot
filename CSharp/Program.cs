@@ -74,9 +74,13 @@ class Program
         // BasicAlgorithms.GetMinMaxAverageValues_Do_While(TestValues.TestLargeArray);
         // BasicAlgorithms.GetMinMaxAverageValues_While(TestValues.TestLargeArray);
         
-        BasicAlgorithms.ShiftArray_For(TestValues.TestLargeArray);
-        BasicAlgorithms.ShiftArray_Do_While(TestValues.TestLargeArray);
-        BasicAlgorithms.ShiftArray_While(TestValues.TestLargeArray);
+        // BasicAlgorithms.ShiftArray_For(TestValues.TestLargeArray);
+        // BasicAlgorithms.ShiftArray_Do_While(TestValues.TestLargeArray);
+        // BasicAlgorithms.ShiftArray_While(TestValues.TestLargeArray);
+        
+        BasicAlgorithms.FizzBuzz_For(TestValues.TestFizzBuzzArray);
+        BasicAlgorithms.FizzBuzz_Do_While(TestValues.TestFizzBuzzArray);
+        BasicAlgorithms.FizzBuzz_While(TestValues.TestFizzBuzzArray);
         // PrintOdds();
         // PrintSum();
         /*int[] numArray2 = {1,12,3,4,6};
