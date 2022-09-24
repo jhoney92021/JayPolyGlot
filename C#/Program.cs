@@ -5,21 +5,6 @@ namespace CSharpBasics;
 
 class Program
 {
-    public static void PrintSum()
-    {
-        // Print all of the numbers from 0 to 255, 
-        // but this time, also print the sum as you go. 
-        // For example, your output should be something like this:            
-        // New number: 0 Sum: 0
-        // New number: 1 Sum: 1
-        // New Number: 2 Sum: 3
-        int sum = 0;
-        for (int i=0;i<256;i++)
-        {
-            sum+=i;
-            Console.WriteLine($"New number: {i} Sum: {sum}");
-        }
-    }
     public static void LoopArray(int[] numArray)
     {
         // Write a function that would iterate through each item of the given integer array and 
@@ -192,13 +177,16 @@ class Program
 
     static void Main(string[] args)
     {
-        // Console.WriteLine("Hello World!");
-        BasicAlgorithms.PrintTo255_For();
-        BasicAlgorithms.PrintTo255_Do_While();
-        BasicAlgorithms.PrintTo255_While();
-        BasicAlgorithms.PrintOddsTo255_For();
-        BasicAlgorithms.PrintOddsTo255_Do_While();
-        BasicAlgorithms.PrintOddsTo255_While();
+        //Console.WriteLine("Hello World!");
+        //BasicAlgorithms.PrintTo255_For();
+        //BasicAlgorithms.PrintTo255_Do_While();
+        //BasicAlgorithms.PrintTo255_While();
+        //BasicAlgorithms.PrintOddsTo255_For();
+        //BasicAlgorithms.PrintOddsTo255_Do_While();
+        //BasicAlgorithms.PrintOddsTo255_While();
+        BasicAlgorithms.PrintSum_For();
+        BasicAlgorithms.PrintSum_Do_While();
+        BasicAlgorithms.PrintSum_While();
         // PrintOdds();
         // PrintSum();
         /*int[] numArray2 = {1,12,3,4,6};
