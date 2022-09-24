@@ -13,7 +13,11 @@
 
     Print all of the integers 
     from 1 to 255 to console
+
 [PrintTo255.cs](./CSharp/BasicAlgorithms/PrintTo255.cs)
+
+[PrintTo255.rb](./Ruby/BasicAlgorithms/PrintTo255.rb)
+
 ## Print odds 1-255 ##
 
     Print all odd integers integers 
