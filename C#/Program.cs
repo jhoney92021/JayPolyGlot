@@ -5,22 +5,6 @@ namespace CSharpBasics;
 
 class Program
 {
-    public static int GetAverage(int[] numArray4)
-    {
-        // Write a function that takes an integer array and prints the AVERAGE of the values in the array.
-        // For example, with an array [2, 10, 3], your program should write 5 to the console.
-        int average = 0;
-        int sum = 0;
-        int count = 0;
-        for (int idx=0;idx<numArray4.Length;idx++)
-        {
-            sum += numArray4[idx];
-            count += 1;
-        }
-        average = sum/numArray4.Length;
-        Console.WriteLine($"Average: {average} Sum: {sum} Count:{count}");
-        return average;
-    }
     public static int[] OddArray()
     {
         // Write a function that creates, and then returns, an array that contains all the odd numbers between 1 to 255. 
@@ -169,6 +153,10 @@ class Program
         BasicAlgorithms.FindMaximumValue_For(TestValues.TestIntegerArray);
         BasicAlgorithms.FindMaximumValue_Do_While(TestValues.TestIntegerArray);
         BasicAlgorithms.FindMaximumValue_While(TestValues.TestIntegerArray);
+        
+        BasicAlgorithms.FindAverageValue_For(TestValues.TestAverageArray);
+        BasicAlgorithms.FindAverageValue_Do_While(TestValues.TestAverageArray);
+        BasicAlgorithms.FindAverageValue_While(TestValues.TestAverageArray);
 
         // PrintOdds();
         // PrintSum();
