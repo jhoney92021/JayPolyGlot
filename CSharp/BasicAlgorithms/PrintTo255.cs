@@ -1,5 +1,3 @@
-using System;
-
 namespace CSharpBasics;
 
 /* Print all of the integers from 1 to 255.*/

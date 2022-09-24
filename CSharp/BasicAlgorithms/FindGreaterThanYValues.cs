@@ -1,4 +1,3 @@
-using System;
 using CSharpBasics.Helpers;
 
 namespace CSharpBasics;

@@ -1,6 +1,3 @@
-using System;
-using System.Linq;
-
 namespace CSharpBasics.Helpers;
 
 public static class ArrayHelpers
