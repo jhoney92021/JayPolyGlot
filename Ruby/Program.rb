@@ -3,6 +3,7 @@ require "PrintTo255"
 require "PrintOddsTo255"
 require "PrintSum"
 require "IterateArray"
+require "FindMaximumValue"
 require "FindOddValues"
 require "For_Find_Max"
 require "For_Get_Average"
@@ -24,13 +25,17 @@ TestIntegerArray = [1, 12, 3, 4, 6]
 # PrintSum.While()
 # PrintSum.DoUntil()
 
-IterateArray.For(TestIntegerArray)
-IterateArray.While(TestIntegerArray)
-IterateArray.DoUntil(TestIntegerArray)
+# IterateArray.For(TestIntegerArray)
+# IterateArray.While(TestIntegerArray)
+# IterateArray.DoUntil(TestIntegerArray)
 
-FindOddValues.For(TestIntegerArray)
-FindOddValues.While(TestIntegerArray)
-FindOddValues.DoUntil(TestIntegerArray)
+FindMaximumValue.For(TestIntegerArray)
+FindMaximumValue.While(TestIntegerArray)
+FindMaximumValue.DoUntil(TestIntegerArray)
+
+# FindOddValues.For(TestIntegerArray)
+# FindOddValues.While(TestIntegerArray)
+# FindOddValues.DoUntil(TestIntegerArray)
 
 # For_Print_To255.Do()
 # While_Print_To255.Do()

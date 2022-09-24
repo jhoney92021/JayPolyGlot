@@ -68,7 +68,11 @@
     output: -3
 
     or even a mix of positive numbers, negative numbers and zero.
+
 [FindMaximumValue.cs](./CSharp/BasicAlgorithms/FindMaximumValue.cs)
+
+[FindMaximumValue.rb](./Ruby/BasicAlgorithms/FindMaximumValue.rb)
+
 ## Find average value of an array ##
 
     Write a function that takes an integer array.
