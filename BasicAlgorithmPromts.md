@@ -7,15 +7,18 @@
     - After try refactoring, IE simplifying overly complicated code, and/or increasing performance
     - Or if you used say For Loops the first time, try them again with maybe a While loops etc.
     - Or try using ternaries rather than if statements etc.
+- If you get stuck there will be links to the language specific answers, or rather a few ways to answer it
 
 ## Print 1-255 ##
 
     Print all of the integers 
     from 1 to 255 to console
+[PrintTo255.cs](./CSharp/BasicAlgorithms/PrintTo255.cs)
 ## Print odds 1-255 ##
 
     Print all odd integers integers 
     from 1 to 255 to console
+[PrintOddsTo255.cs](./CSharp/BasicAlgorithms/PrintOddsTo255.cs)
 ## Print sum of 1-255 ##
 
     Print all of the numbers from 0 to 255, 
@@ -26,6 +29,7 @@
     New number: 0 Sum: 0
     New number: 1 Sum: 1
     New Number: 2 Sum: 3
+[PrintOddsTo255.cs](./CSharp/BasicAlgorithms/PrintOddsTo255.cs)
 ## Iterate through an array ##
 
      Write a function that would iterate through each item of the given integer array 
@@ -37,6 +41,7 @@
      output: 1
      3
      4
+[PrintOddsTo255.cs](./CSharp/BasicAlgorithms/PrintOddsTo255.cs)
 ## Find maximum(biggest) value of an array ##
 
     Write a function that takes an integer array and prints and returns the maximum value in the array. 
@@ -47,6 +52,7 @@
     output: -3
 
     or even a mix of positive numbers, negative numbers and zero.
+[FindMaximumValue.cs](./CSharp/BasicAlgorithms/FindMaximumValue.cs)
 ## Find average value of an array ##
 
     Write a function that takes an integer array.
@@ -55,6 +61,7 @@
 
     input:  [2, 10, 3]
     output: 5
+[FindAverageValue.cs](./CSharp/BasicAlgorithms/FindAverageValue.cs)
 ## Find odd values of an array ##
 
     Write a function that creates 
@@ -65,6 +72,7 @@
 
     input:  [1, 12, 3, 4, 6]
     output: [1, 3]
+[FindOddValues.cs](./CSharp/BasicAlgorithms/FindOddValues.cs)
 ## Find values of an array greater than y ##
 
     Write a function that takes an integer array, 
@@ -75,6 +83,7 @@
     
     input:  [1, 3, 5, 7], 3
     output: [5,7]
+[FindGreaterThanYValues.cs](./CSharp/BasicAlgorithms/FindGreaterThanYValues.cs)
 ## Square all values of an array ##
 
     Write a function that takes an integer array "numbers"
@@ -83,6 +92,7 @@
 
     input:  [1,  5,  10, -10] 
     output: [1, 25, 100, 100]
+[SquareArrayValues.cs](./CSharp/BasicAlgorithms/SquareArrayValues.cs)
 ## Get the absolute value of all integers in an array ##
     Write a function that takes an integer array "numbers"
 
@@ -90,6 +100,7 @@
 
     input:  [1, -5, 10, -2]
     output: [1,  5, 10,  2]
+[AbsoluteValues.cs](./CSharp/BasicAlgorithms/AbsoluteValues.cs)
 ## Shift all values of an array ##
 
     Write a function that takes an integer array "numbers"
@@ -98,6 +109,7 @@
 
     input:  [1, -5, 10, -2, 1, 12, 3, 4, 6] 
     output: [-5, 10, -2, 1, 12, 3, 4, 6, 0]
+[ShiftArray.cs](./CSharp/BasicAlgorithms/ShiftArray.cs)
 ## Fizz Buzz and array ##
 
     Write a function that takes an integer array and returns an object array 
@@ -110,3 +122,4 @@
 
     input:  [-1, -3, 2, 12, 3, 4] 
     output: ["Fizz", "FizzBuzz", 2, "Buzz", "Buzz", 4].
+[FizzBuzz.cs](./CSharp/BasicAlgorithms/FizzBuzz.cs)
