@@ -8,9 +8,10 @@ require "FindAverageValue"
 require "FindOddValues"
 require "FindGreaterThanYValues"
 require "SquareArrayValues"
-require "Positive_Array"
+require "AbsoluteValues"
 
 TestIntegerArray = [1, 12, 3, 4, 6]
+TestNegativeArray = [-1, -12, -3]
     
 # PrintTo255.For()
 # PrintTo255.DoWhile()
@@ -40,9 +41,13 @@ TestIntegerArray = [1, 12, 3, 4, 6]
 # FindGreaterThanYValues.While(TestIntegerArray, 4)
 # FindGreaterThanYValues.DoUntil(TestIntegerArray, 4)
 
-SquareArrayValues.For(TestIntegerArray)
-SquareArrayValues.While(TestIntegerArray)
-SquareArrayValues.DoUntil(TestIntegerArray)
+# SquareArrayValues.For(TestIntegerArray)
+# SquareArrayValues.While(TestIntegerArray)
+# SquareArrayValues.DoUntil(TestIntegerArray)
+
+AbsoluteValues.For(TestNegativeArray)
+AbsoluteValues.While(TestNegativeArray)
+AbsoluteValues.DoUntil(TestNegativeArray)
 
 # FindOddValues.For(TestIntegerArray)
 # FindOddValues.While(TestIntegerArray)

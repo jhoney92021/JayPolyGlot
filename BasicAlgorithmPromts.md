@@ -136,7 +136,11 @@
 
     input:  [1, -5, 10, -2]
     output: [1,  5, 10,  2]
+
 [AbsoluteValues.cs](./CSharp/BasicAlgorithms/AbsoluteValues.cs)
+
+[AbsoluteValues.rb](./Ruby/BasicAlgorithms/AbsoluteValues.rb)
+
 ## Shift all values of an array ##
 
     Write a function that takes an integer array "numbers"
