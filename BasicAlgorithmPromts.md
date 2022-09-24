@@ -1,6 +1,13 @@
 # jhoney's Basic Algorithm Prompts #
 [Main Notes](./README.md#quick-links)
 
+## Suggestions ##
+- The first time around, there is no need to be fancy
+    - Just do whatever you need to get it done the first time
+    - After try refactoring, IE simplifying overly complicated code, and/or increasing performance
+    - Or if you used say For Loops the first time, try them again with maybe a While loops etc.
+    - Or try using ternaries rather than if statements etc.
+
 ## Print 1-255 ##
 
     Print all of the integers 
