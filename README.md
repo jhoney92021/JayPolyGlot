@@ -3,9 +3,9 @@
 ### Quick Links ###
 * [Basic Algo Prompts](./BasicAlgorithmPromts.md)
 
-* [C# Notes](./CSharp/README.md)
+* [C# Basics](./CSharp/README.md)
 
-* [Ruby Notes](./Ruby/README.md)
+* [Ruby Basics](./Ruby/README.md)
 
 ## Intent ##
 * The basic intent of this repo is to practice
