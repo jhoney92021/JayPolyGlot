@@ -2,43 +2,43 @@ namespace CSharpBasics.Helpers;
 
 public static class ArrayHelpers
 {
-        /* 
-    *   this is a helper method
-    *   known as a method "extension"
-    *   using a STATIC METHOD, accepting an arguement
-    *   "THIS" and a TYPE (primitives (int, bool, etc.), 
-    *                       or custom Types IE class MyClass
-    *                       or Enums etc.)
-    *   enable us to do a dot walk on a TYPE
-    *   ex: for an int, you could say 
-    *
-    *   static void PrintInt(this int toPrint)
-    *   {
-    *       Console.WriteLine(toPrint);
-    *   }
-    *   
-    *   could be used like this
-    *   13.PrintInt();
-    *   output: 13
-    *
-    *   custom class ex:
-    *
-    *   class MyClass { int SomeIntProp { get; set; }  }
-    *
-    *   static void PrintInt(this MyClass toPrint)
-    *   {
-    *       Console.WriteLine(toPrint.SomeIntProp);
-    *   }
-    *
-    *   could be used like this
-    *   var thirteen = new MyClass();
-    *   thirteen.SomeIntProp = 13;
-    *   thirteen.PrintInt();
-    *   output: 13
-    *
-    *   this method extension
-    *   creates a new array from an old array and adds a new value 
-    */
+/* 
+*   this is a helper method
+*   known as a method "extension"
+*   using a STATIC METHOD, accepting an arguement
+*   "THIS" and a TYPE (primitives (int, bool, etc.), 
+*                       or custom Types IE class MyClass
+*                       or Enums etc.)
+*   enable us to do a dot walk on a TYPE
+*   ex: for an int, you could say 
+*
+*   static void PrintInt(this int toPrint)
+*   {
+*       Console.WriteLine(toPrint);
+*   }
+*   
+*   could be used like this
+*   13.PrintInt();
+*   output: 13
+*
+*   custom class ex:
+*
+*   class MyClass { int SomeIntProp { get; set; }  }
+*
+*   static void PrintInt(this MyClass toPrint)
+*   {
+*       Console.WriteLine(toPrint.SomeIntProp);
+*   }
+*
+*   could be used like this
+*   var thirteen = new MyClass();
+*   thirteen.SomeIntProp = 13;
+*   thirteen.PrintInt();
+*   output: 13
+*
+*   this method extension
+*   creates a new array from an old array and adds a new value 
+*/
     public static int[] AddValue(this int[] oldArray, int newValue)
     {
         /* 
