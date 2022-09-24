@@ -184,9 +184,13 @@ class Program
         //BasicAlgorithms.PrintOddsTo255_For();
         //BasicAlgorithms.PrintOddsTo255_Do_While();
         //BasicAlgorithms.PrintOddsTo255_While();
-        BasicAlgorithms.PrintSum_For();
-        BasicAlgorithms.PrintSum_Do_While();
-        BasicAlgorithms.PrintSum_While();
+        //BasicAlgorithms.PrintSum_For();
+        //BasicAlgorithms.PrintSum_Do_While();
+        //BasicAlgorithms.PrintSum_While();
+        BasicAlgorithms.IterateArray_For(TestValues.TestIntegerArray);
+        BasicAlgorithms.IterateArray_Do_While(TestValues.TestIntegerArray);
+        BasicAlgorithms.IterateArray_While(TestValues.TestIntegerArray);
+
         // PrintOdds();
         // PrintSum();
         /*int[] numArray2 = {1,12,3,4,6};
