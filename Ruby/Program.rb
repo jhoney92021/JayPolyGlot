@@ -7,7 +7,7 @@ require "FindMaximumValue"
 require "FindAverageValue"
 require "FindOddValues"
 require "FindGreaterThanYValues"
-require "Square_Array"
+require "SquareArrayValues"
 require "Positive_Array"
 
 TestIntegerArray = [1, 12, 3, 4, 6]
@@ -36,9 +36,13 @@ TestIntegerArray = [1, 12, 3, 4, 6]
 # FindAverageValue.While(TestIntegerArray)
 # FindAverageValue.DoUntil(TestIntegerArray)
 
-FindGreaterThanYValues.For(TestIntegerArray, 4)
-FindGreaterThanYValues.While(TestIntegerArray, 4)
-FindGreaterThanYValues.DoUntil(TestIntegerArray, 4)
+# FindGreaterThanYValues.For(TestIntegerArray, 4)
+# FindGreaterThanYValues.While(TestIntegerArray, 4)
+# FindGreaterThanYValues.DoUntil(TestIntegerArray, 4)
+
+SquareArrayValues.For(TestIntegerArray)
+SquareArrayValues.While(TestIntegerArray)
+SquareArrayValues.DoUntil(TestIntegerArray)
 
 # FindOddValues.For(TestIntegerArray)
 # FindOddValues.While(TestIntegerArray)

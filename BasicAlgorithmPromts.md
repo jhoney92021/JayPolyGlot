@@ -124,7 +124,11 @@
 
     input:  [1,  5,  10, -10] 
     output: [1, 25, 100, 100]
+
 [SquareArrayValues.cs](./CSharp/BasicAlgorithms/SquareArrayValues.cs)
+
+[SquareArrayValues.rb](./Ruby/BasicAlgorithms/SquareArrayValues.rb)
+
 ## Get the absolute value of all integers in an array ##
     Write a function that takes an integer array "numbers"
 
