@@ -3,12 +3,14 @@ using CSharpBasics.Helpers;
 namespace CSharpBasics;
 
 /* 
-* Write a function that creates, and then returns, 
-* an array that contains all the numbers 
-* greater than a given value of a given array. 
+* Write a function that creates, and then returns
+* 
+* an array that contains all the odd numbers 
+* of a given array. 
+* 
 * When the program is done, 
-* given [1, 12, 3, 4, 6] looking for values greater than 5.
-* this array should have the values of [6, 12].
+* ex: [1, 12, 3, 4, 6]
+* output: [1, 3]
 */
 
 public static partial class BasicAlgorithms

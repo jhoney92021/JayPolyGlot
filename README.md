@@ -1,6 +1,8 @@
 # JayPolyGlot -- learning programming basic cross lang #
 
 ### Quick Links ###
+* [Basic Algo Prompts](./BasicAlgorithmPromts.md)
+
 * [C# Notes](./CSharp/README.md)
 
 * [Ruby Notes](./Ruby/README.md)
