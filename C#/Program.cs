@@ -5,17 +5,6 @@ namespace CSharpBasics;
 
 class Program
 {
-    public static void PrintOdds()
-    {
-        // Print all of the odd integers from 1 to 255.
-        for (int i=0;i<256;i++)
-        {
-            if (i % 2 == 1)
-            {
-                Console.WriteLine(i);
-            } 
-        }
-    }
     public static void PrintSum()
     {
         // Print all of the numbers from 0 to 255, 
@@ -205,7 +194,11 @@ class Program
     {
         // Console.WriteLine("Hello World!");
         BasicAlgorithms.PrintTo255_For();
+        BasicAlgorithms.PrintTo255_Do_While();
         BasicAlgorithms.PrintTo255_While();
+        BasicAlgorithms.PrintOddsTo255_For();
+        BasicAlgorithms.PrintOddsTo255_Do_While();
+        BasicAlgorithms.PrintOddsTo255_While();
         // PrintOdds();
         // PrintSum();
         /*int[] numArray2 = {1,12,3,4,6};
