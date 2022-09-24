@@ -1,6 +1,8 @@
-#  Write a function that takes an integer array and prints and returns the maximum value in the array. 
-#  Your program should also work with a given array that has all negative numbers (e.g. [-3, -5, -7]), 
-#  or even a mix of positive numbers, negative numbers and zero.
+# Write a function that takes an integer array and prints and returns the maximum value in the array. 
+# Your program should also work with a given array that has all negative numbers 
+# input:  [-3, -5, -7] 
+# output: -3
+
 module FindMaximumValue
 
   def FindMaximumValue.For(numArray)
