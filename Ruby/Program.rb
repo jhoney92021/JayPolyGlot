@@ -3,9 +3,9 @@ require "PrintTo255"
 require "PrintOddsTo255"
 require "PrintSum"
 require "IterateArray"
+require "FindOddValues"
 require "For_Find_Max"
 require "For_Get_Average"
-require "Odd_Array"
 require "GreaterThanY"
 require "Square_Array"
 require "Positive_Array"
@@ -27,6 +27,10 @@ TestIntegerArray = [1, 12, 3, 4, 6]
 IterateArray.For(TestIntegerArray)
 IterateArray.While(TestIntegerArray)
 IterateArray.DoUntil(TestIntegerArray)
+
+FindOddValues.For(TestIntegerArray)
+FindOddValues.While(TestIntegerArray)
+FindOddValues.DoUntil(TestIntegerArray)
 
 # For_Print_To255.Do()
 # While_Print_To255.Do()

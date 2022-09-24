@@ -88,7 +88,11 @@
 
     input:  [1, 12, 3, 4, 6]
     output: [1, 3]
+
 [FindOddValues.cs](./CSharp/BasicAlgorithms/FindOddValues.cs)
+
+[FindOddValues.rb](./Ruby/BasicAlgorithms/FindOddValues.rb)
+
 ## Find values of an array greater than y ##
 
     Write a function that takes an integer array, 

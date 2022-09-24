@@ -1,42 +1,37 @@
-# Write a function that takes an integer array and prints the AVERAGE of the values in the array.
-# For example, with an array [2, 10, 3], your program should write 5 to the console.
+# Write a function that would iterate through 
+# each item of the given integer array and 
+# print each value to the console. 
 module IterateArray
 
   def IterateArray.For(numArray)
-    oddArray = []
+    newArray = []
     for num in numArray
-      if num.modulo(2) == 1 
-        oddArray.push(num)
-      end
+      newArray.push(num)
     end
-    print "For Odd Array #{oddArray} \n" 
-    return oddArray
+    print "For Array #{newArray} \n" 
+    return newArray
   end
 
   def IterateArray.While(numArray)
     x = 0
-    oddArray = []
+    newArray = []
     begin
-      if numArray[x].modulo(2) == 1 
-        oddArray.push(numArray[x])
-      end
+      newArray.push(numArray[x])
       x += 1    
     end while x < numArray.length
-    print "While Odd Array #{oddArray} \n" 
-    return oddArray
+    print "While Array #{newArray} \n" 
+    return newArray
   end
 
   def IterateArray.DoUntil(numArray)
     x = 0
-    oddArray = []
+    newArray = []
     until x == numArray.length do
-      if numArray[x].modulo(2) == 1 
-        oddArray.push(numArray[x])
-      end
+      newArray.push(numArray[x])
       x += 1      
     end
-    print "Until Odd Array #{oddArray} \n" 
-    return oddArray
+    print "Until Array #{newArray} \n" 
+    return newArray
   end
 
 end
