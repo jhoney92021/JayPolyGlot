@@ -141,6 +141,8 @@ class Program
         BasicAlgorithms.FindAverageValue_While(TestValues.TestAverageArray);
 
         BasicAlgorithms.FindOddValues_For(TestValues.TestIntegerArray);
+        BasicAlgorithms.FindOddValues_Do_While(TestValues.TestIntegerArray);
+        BasicAlgorithms.FindOddValues_While(TestValues.TestIntegerArray);
         // PrintOdds();
         // PrintSum();
         /*int[] numArray2 = {1,12,3,4,6};
