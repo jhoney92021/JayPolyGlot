@@ -5,18 +5,6 @@ namespace CSharpBasics;
 
 class Program
 {
-    public static int[] SquareArrayValues(int[] numArray6)
-    {
-        // Write a function that takes an integer array "numbers", and then multiplies each value by itself.
-        // For example, [1,5,10,-10] should become [1,25,100,100]
-        for (int idx=0;idx<numArray6.Length;idx++)
-        {
-            Console.WriteLine($"Old Number: {numArray6[idx]}");
-            numArray6[idx] *= numArray6[idx];
-            Console.WriteLine($"New Number: {numArray6[idx]}");
-        }
-        return numArray6;
-    }
     public static void EliminateNegatives(int[] numArray7)
     {
         // Given an integer array "numbers", say [1, 5, 10, -2], create a function that replaces any negative number with the value of 0. 
@@ -123,13 +111,18 @@ class Program
         // BasicAlgorithms.FindAverageValue_Do_While(TestValues.TestAverageArray);
         // BasicAlgorithms.FindAverageValue_While(TestValues.TestAverageArray);
 
-        BasicAlgorithms.FindOddValues_For(TestValues.TestIntegerArray);
-        BasicAlgorithms.FindOddValues_Do_While(TestValues.TestIntegerArray);
-        BasicAlgorithms.FindOddValues_While(TestValues.TestIntegerArray);
+        // BasicAlgorithms.FindOddValues_For(TestValues.TestIntegerArray);
+        // BasicAlgorithms.FindOddValues_Do_While(TestValues.TestIntegerArray);
+        // BasicAlgorithms.FindOddValues_While(TestValues.TestIntegerArray);
         
-        BasicAlgorithms.FindGreaterThanYValues_For(TestValues.TestIntegerArray,5);
-        BasicAlgorithms.FindGreaterThanYValues_Do_While(TestValues.TestIntegerArray,5);
-        BasicAlgorithms.FindGreaterThanYValues_While(TestValues.TestIntegerArray,5);
+        // BasicAlgorithms.FindGreaterThanYValues_For(TestValues.TestIntegerArray,5);
+        // BasicAlgorithms.FindGreaterThanYValues_Do_While(TestValues.TestIntegerArray,5);
+        // BasicAlgorithms.FindGreaterThanYValues_While(TestValues.TestIntegerArray,5);
+        
+        BasicAlgorithms.SquareTheValuesOfAnArray_For(TestValues.TestSquareArray);
+        BasicAlgorithms.SquareTheValuesOfAnArray_Do_While(TestValues.TestSquareArray);
+        BasicAlgorithms.SquareTheValuesOfAnArray_While(TestValues.TestSquareArray);
+        
         // PrintOdds();
         // PrintSum();
         /*int[] numArray2 = {1,12,3,4,6};
