@@ -5,24 +5,6 @@ namespace CSharpBasics;
 
 class Program
 {
-    public static int[] OddArray()
-    {
-        // Write a function that creates, and then returns, an array that contains all the odd numbers between 1 to 255. 
-        // When the program is done, this array should have the values of [1, 3, 5, 7, ... 255].
-        int[] newArray = new int[255/2];
-        int count = 0;
-        for (int idx=0;idx<256;idx++)
-        {
-            if(idx % 2 == 1)
-            {
-                Console.WriteLine($"Old Value: {newArray[count]} Loop Value: {idx}");
-                newArray[count]= idx;
-                Console.WriteLine($"New Value: {newArray[count]} Loop Value: {idx}");
-                count++;
-            }
-        }
-        return newArray;
-    }
     public static int GreaterThanY(int[] numArray5, int y)
     {
         // Write a function that takes an integer array, and a integer "y" and returns the number of array values 
@@ -150,14 +132,15 @@ class Program
         //BasicAlgorithms.IterateArray_Do_While(TestValues.TestIntegerArray);
         //BasicAlgorithms.IterateArray_While(TestValues.TestIntegerArray);
         
-        BasicAlgorithms.FindMaximumValue_For(TestValues.TestIntegerArray);
-        BasicAlgorithms.FindMaximumValue_Do_While(TestValues.TestIntegerArray);
-        BasicAlgorithms.FindMaximumValue_While(TestValues.TestIntegerArray);
+        //BasicAlgorithms.FindMaximumValue_For(TestValues.TestIntegerArray);
+        //BasicAlgorithms.FindMaximumValue_Do_While(TestValues.TestIntegerArray);
+        //BasicAlgorithms.FindMaximumValue_While(TestValues.TestIntegerArray);
         
         BasicAlgorithms.FindAverageValue_For(TestValues.TestAverageArray);
         BasicAlgorithms.FindAverageValue_Do_While(TestValues.TestAverageArray);
         BasicAlgorithms.FindAverageValue_While(TestValues.TestAverageArray);
 
+        BasicAlgorithms.FindOddValues_For(TestValues.TestIntegerArray);
         // PrintOdds();
         // PrintSum();
         /*int[] numArray2 = {1,12,3,4,6};
