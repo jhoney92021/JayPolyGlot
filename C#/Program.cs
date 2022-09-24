@@ -5,22 +5,6 @@ namespace CSharpBasics;
 
 class Program
 {
-    public static int FindMax(int[] numArray3)
-    {
-        // Write a function that takes an integer array and prints and returns the maximum value in the array. 
-        // Your program should also work with a given array that has all negative numbers (e.g. [-3, -5, -7]), 
-        // or even a mix of positive numbers, negative numbers and zero.
-        int max=numArray3[0];
-        for (int idx=1;idx<numArray3.Length;idx++)
-        {
-            if(max<numArray3[idx])
-            {
-                max=numArray3[idx];
-            }                
-        }
-        Console.WriteLine(max);
-        return max;
-    }
     public static int GetAverage(int[] numArray4)
     {
         // Write a function that takes an integer array and prints the AVERAGE of the values in the array.
@@ -178,9 +162,13 @@ class Program
         //BasicAlgorithms.PrintSum_For();
         //BasicAlgorithms.PrintSum_Do_While();
         //BasicAlgorithms.PrintSum_While();
-        BasicAlgorithms.IterateArray_For(TestValues.TestIntegerArray);
-        BasicAlgorithms.IterateArray_Do_While(TestValues.TestIntegerArray);
-        BasicAlgorithms.IterateArray_While(TestValues.TestIntegerArray);
+        //BasicAlgorithms.IterateArray_For(TestValues.TestIntegerArray);
+        //BasicAlgorithms.IterateArray_Do_While(TestValues.TestIntegerArray);
+        //BasicAlgorithms.IterateArray_While(TestValues.TestIntegerArray);
+        
+        BasicAlgorithms.FindMaximumValue_For(TestValues.TestIntegerArray);
+        BasicAlgorithms.FindMaximumValue_Do_While(TestValues.TestIntegerArray);
+        BasicAlgorithms.FindMaximumValue_While(TestValues.TestIntegerArray);
 
         // PrintOdds();
         // PrintSum();
