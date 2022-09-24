@@ -9,9 +9,11 @@ require "FindOddValues"
 require "FindGreaterThanYValues"
 require "SquareArrayValues"
 require "AbsoluteValues"
+require "FizzBuzz"
 
 TestIntegerArray = [1, 12, 3, 4, 6]
 TestNegativeArray = [-1, -12, -3]
+TestFizzBuzzArray   = [-1, -3, 2, 12, 3, 4];
     
 # PrintTo255.For()
 # PrintTo255.DoWhile()
@@ -45,9 +47,13 @@ TestNegativeArray = [-1, -12, -3]
 # SquareArrayValues.While(TestIntegerArray)
 # SquareArrayValues.DoUntil(TestIntegerArray)
 
-AbsoluteValues.For(TestNegativeArray)
-AbsoluteValues.While(TestNegativeArray)
-AbsoluteValues.DoUntil(TestNegativeArray)
+# AbsoluteValues.For(TestNegativeArray)
+# AbsoluteValues.While(TestNegativeArray)
+# AbsoluteValues.DoUntil(TestNegativeArray)
+
+FizzBuzz.For(TestFizzBuzzArray)
+FizzBuzz.While(TestFizzBuzzArray)
+FizzBuzz.DoUntil(TestFizzBuzzArray)
 
 # FindOddValues.For(TestIntegerArray)
 # FindOddValues.While(TestIntegerArray)

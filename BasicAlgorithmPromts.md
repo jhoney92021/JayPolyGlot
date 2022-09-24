@@ -162,4 +162,8 @@
 
     input:  [-1, -3, 2, 12, 3, 4] 
     output: ["Fizz", "FizzBuzz", 2, "Buzz", "Buzz", 4].
+
 [FizzBuzz.cs](./CSharp/BasicAlgorithms/FizzBuzz.cs)
+
+[FizzBuzz.rb](./Ruby/BasicAlgorithms/FizzBuzz.rb)
+
