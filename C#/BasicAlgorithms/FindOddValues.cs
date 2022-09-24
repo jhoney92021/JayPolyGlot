@@ -1,15 +1,15 @@
 using System;
-using System.Linq;
 using CSharpBasics.Helpers;
 
 namespace CSharpBasics;
 
 /* 
 * Write a function that creates, and then returns, 
-* an array that contains all the odd numbers of a given array. 
+* an array that contains all the numbers 
+* greater than a given value of a given array. 
 * When the program is done, 
-* given [1, 12, 3, 4, 6].
-* this array should have the values of [1, 3].
+* given [1, 12, 3, 4, 6] looking for values greater than 5.
+* this array should have the values of [6, 12].
 */
 
 public static partial class BasicAlgorithms
@@ -39,7 +39,7 @@ public static partial class BasicAlgorithms
         }
         return oddArray;
     }
-        public static int[] FindOddValues_Do_While(int[] integerArray)
+    public static int[] FindOddValues_Do_While(int[] integerArray)
     {
         int iterator = 0;
         int[] oddArray = new int[0];

@@ -5,23 +5,6 @@ namespace CSharpBasics;
 
 class Program
 {
-    public static int GreaterThanY(int[] numArray5, int y)
-    {
-        // Write a function that takes an integer array, and a integer "y" and returns the number of array values 
-        // That are greater than the "y" value. 
-        // For example, if array = [1, 3, 5, 7] and y = 3. Your function should return 2 
-        // (since there are two values in the array that are greater than 3).
-        int count = 0;
-        for (int idx=0;idx<numArray5.Length;idx++)
-        {
-            if(numArray5[idx] > y)
-            {
-                count++;
-            }
-        }
-        Console.WriteLine(count);
-        return count;
-    }
     public static int[] SquareArrayValues(int[] numArray6)
     {
         // Write a function that takes an integer array "numbers", and then multiplies each value by itself.
@@ -136,13 +119,17 @@ class Program
         //BasicAlgorithms.FindMaximumValue_Do_While(TestValues.TestIntegerArray);
         //BasicAlgorithms.FindMaximumValue_While(TestValues.TestIntegerArray);
         
-        BasicAlgorithms.FindAverageValue_For(TestValues.TestAverageArray);
-        BasicAlgorithms.FindAverageValue_Do_While(TestValues.TestAverageArray);
-        BasicAlgorithms.FindAverageValue_While(TestValues.TestAverageArray);
+        // BasicAlgorithms.FindAverageValue_For(TestValues.TestAverageArray);
+        // BasicAlgorithms.FindAverageValue_Do_While(TestValues.TestAverageArray);
+        // BasicAlgorithms.FindAverageValue_While(TestValues.TestAverageArray);
 
         BasicAlgorithms.FindOddValues_For(TestValues.TestIntegerArray);
         BasicAlgorithms.FindOddValues_Do_While(TestValues.TestIntegerArray);
         BasicAlgorithms.FindOddValues_While(TestValues.TestIntegerArray);
+        
+        BasicAlgorithms.FindGreaterThanYValues_For(TestValues.TestIntegerArray,5);
+        BasicAlgorithms.FindGreaterThanYValues_Do_While(TestValues.TestIntegerArray,5);
+        BasicAlgorithms.FindGreaterThanYValues_While(TestValues.TestIntegerArray,5);
         // PrintOdds();
         // PrintSum();
         /*int[] numArray2 = {1,12,3,4,6};
