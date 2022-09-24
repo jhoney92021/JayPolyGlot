@@ -22,7 +22,11 @@
 
     Print all odd integers integers 
     from 1 to 255 to console
+
 [PrintOddsTo255.cs](./CSharp/BasicAlgorithms/PrintOddsTo255.cs)
+
+[PrintOddsTo255.rb](./Ruby/BasicAlgorithms/PrintOddsTo255.rb)
+
 ## Print sum of 1-255 ##
 
     Print all of the numbers from 0 to 255, 
