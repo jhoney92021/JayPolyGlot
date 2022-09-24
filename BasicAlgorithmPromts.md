@@ -53,7 +53,11 @@
      output: 1
      3
      4
-[PrintOddsTo255.cs](./CSharp/BasicAlgorithms/PrintOddsTo255.cs)
+
+[IterateArray.cs](./CSharp/BasicAlgorithms/IterateArray.cs)
+
+[IterateArray.rb](./Ruby/BasicAlgorithms/IterateArray.rb)
+
 ## Find maximum(biggest) value of an array ##
 
     Write a function that takes an integer array and prints and returns the maximum value in the array. 
