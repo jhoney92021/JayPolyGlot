@@ -5,44 +5,6 @@ namespace CSharpBasics;
 
 class Program
 {
-    public static void EliminateNegatives(int[] numArray7)
-    {
-        // Given an integer array "numbers", say [1, 5, 10, -2], create a function that replaces any negative number with the value of 0. 
-        // When the program is done, "numbers" should have no negative values, say [1, 5, 10, 0].
-        for (int idx=0;idx<numArray7.Length;idx++)
-        {
-            if(numArray7[idx]<0)
-            {
-                Console.WriteLine($"Old Number: {numArray7[idx]}");
-                numArray7[idx]=0;
-                Console.WriteLine($"New Number: {numArray7[idx]}");
-            }
-        }
-    }
-    public static int[] MinMaxAverage(int[] numArray8)
-    {
-        // Given an integer array, say [1, 5, 10, -2], create a function that prints the maximum number in the array, 
-        // the minimum value in the array, and the average of the values in the array.
-        int max = numArray8[0];
-        int min = numArray8[0];
-        int sum = 0;
-        for (int idx=1;idx<numArray8.Length;idx++)
-        {
-            sum += numArray8[idx];
-            if(max<numArray8[idx])
-            {
-                max=numArray8[idx];
-            } 
-            if(min>numArray8[idx])
-            {
-                min=numArray8[idx];
-            } 
-        }
-        int average = sum/numArray8.Length;
-        int[] answer = {max,min,average};
-        Console.WriteLine($"Max: {max} Min: {min} Average: {average}");
-        return answer;
-    }
     public static void ShiftValues(int[] numArray9)
     {
         // Given an integer array, say [1, 5, 10, 7, -2], 
@@ -90,15 +52,19 @@ class Program
     static void Main(string[] args)
     {
         //Console.WriteLine("Hello World!");
+        
         //BasicAlgorithms.PrintTo255_For();
         //BasicAlgorithms.PrintTo255_Do_While();
         //BasicAlgorithms.PrintTo255_While();
+
         //BasicAlgorithms.PrintOddsTo255_For();
         //BasicAlgorithms.PrintOddsTo255_Do_While();
         //BasicAlgorithms.PrintOddsTo255_While();
+
         //BasicAlgorithms.PrintSum_For();
         //BasicAlgorithms.PrintSum_Do_While();
         //BasicAlgorithms.PrintSum_While();
+
         //BasicAlgorithms.IterateArray_For(TestValues.TestIntegerArray);
         //BasicAlgorithms.IterateArray_Do_While(TestValues.TestIntegerArray);
         //BasicAlgorithms.IterateArray_While(TestValues.TestIntegerArray);
@@ -123,9 +89,13 @@ class Program
         // BasicAlgorithms.SquareTheValuesOfAnArray_Do_While(TestValues.TestSquareArray);
         // BasicAlgorithms.SquareTheValuesOfAnArray_While(TestValues.TestSquareArray);
 
-        BasicAlgorithms.ConvertToAbsoluteValues_For(TestValues.TestNegativeArray);
-        BasicAlgorithms.ConvertToAbsoluteValues_Do_While(TestValues.TestNegativeArray);
-        BasicAlgorithms.ConvertToAbsoluteValues_While(TestValues.TestNegativeArray);
+        // BasicAlgorithms.ConvertToAbsoluteValues_For(TestValues.TestNegativeArray);
+        // BasicAlgorithms.ConvertToAbsoluteValues_Do_While(TestValues.TestNegativeArray);
+        // BasicAlgorithms.ConvertToAbsoluteValues_While(TestValues.TestNegativeArray);
+
+        BasicAlgorithms.GetMinMaxAverageValues_For(TestValues.TestLargeArray);
+        BasicAlgorithms.GetMinMaxAverageValues_Do_While(TestValues.TestLargeArray);
+        BasicAlgorithms.GetMinMaxAverageValues_While(TestValues.TestLargeArray);
         
         // PrintOdds();
         // PrintSum();
