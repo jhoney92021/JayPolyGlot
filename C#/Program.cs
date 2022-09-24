@@ -5,15 +5,6 @@ namespace CSharpBasics;
 
 class Program
 {
-    public static void LoopArray(int[] numArray)
-    {
-        // Write a function that would iterate through each item of the given integer array and 
-        // print each value to the console. 
-        for (int idx=0;idx<numArray.Length;idx++)
-        {
-            Console.WriteLine(numArray[idx]);       
-        }
-    }
     public static int FindMax(int[] numArray3)
     {
         // Write a function that takes an integer array and prints and returns the maximum value in the array. 
