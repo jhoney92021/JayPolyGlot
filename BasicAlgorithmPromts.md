@@ -81,7 +81,11 @@
 
     input:  [2, 10, 3]
     output: 5
+
 [FindAverageValue.cs](./CSharp/BasicAlgorithms/FindAverageValue.cs)
+
+[FindAverageValue.rb](./Ruby/BasicAlgorithms/FindAverageValue.rb)
+
 ## Find odd values of an array ##
 
     Write a function that creates 
