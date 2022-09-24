@@ -149,7 +149,11 @@
 
     input:  [1, -5, 10, -2, 1, 12, 3, 4, 6] 
     output: [-5, 10, -2, 1, 12, 3, 4, 6, 0]
+    
 [ShiftArray.cs](./CSharp/BasicAlgorithms/ShiftArray.cs)
+
+[ShiftArray.rb](./Ruby/BasicAlgorithms/ShiftArray.rb)
+
 ## Fizz Buzz and array ##
 
     Write a function that takes an integer array and returns an object array 
