@@ -68,6 +68,8 @@
 
 [IterateArray.cs](./CSharp/BasicAlgorithms/IterateArray.cs)
 
+[IterateArray.py](./Python/BasicAlgorithms/IterateArray.py)
+
 [IterateArray.rb](./Ruby/BasicAlgorithms/IterateArray.rb)
 
 [IterateArray.vb](./VisualBasic/BasicAlgorithms/IterateArray.vb)
