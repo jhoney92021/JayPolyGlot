@@ -42,8 +42,8 @@
     with this
         ------------------------------------------------
         int[] oddArray = integerArray
-        .Where(number => (number % 2 == 1))
-        .ToArray();        
+            .Where(number => (number % 2 == 1))
+            .ToArray();        
 
         return oddArray;
         ------------------------------------------------
