@@ -60,7 +60,10 @@ class Program
         // BasicAlgorithms.FizzBuzz_Do_While(TestValues.TestFizzBuzzArray);
         // BasicAlgorithms.FizzBuzz_While(TestValues.TestFizzBuzzArray);
 
-        LinqBasicAlgorithms.FindOddValues(TestValues.TestIntegerArray);
+        // LinqBasicAlgorithms.FindOddValues(TestValues.TestIntegerArray);
+        
+        ComparingPeople.GetIllPeople();
+        ComparingPeople.GetStandardPeople();
 
     }
 }
