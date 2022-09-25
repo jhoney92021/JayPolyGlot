@@ -18,6 +18,8 @@
 
 [PrintTo255.rb](./Ruby/BasicAlgorithms/PrintTo255.rb)
 
+[PrintTo255.vb](./VisualBasic/BasicAlgorithms/PrintTo255.vb)
+
 ## Print odds 1-255 ##
 
     Print all odd integers integers 
