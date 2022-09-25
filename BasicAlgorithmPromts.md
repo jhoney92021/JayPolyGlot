@@ -102,6 +102,8 @@
 
 [FindAverageValue.cs](./CSharp/BasicAlgorithms/FindAverageValue.cs)
 
+[FindAverageValue.py](./Python/BasicAlgorithms/FindAverageValue.py)
+
 [FindAverageValue.rb](./Ruby/BasicAlgorithms/FindAverageValue.rb)
 
 ## Find odd values of an array ##

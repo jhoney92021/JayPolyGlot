@@ -4,6 +4,7 @@ from BasicAlgorithms.PrintOddsTo255 import *
 from BasicAlgorithms.PrintSum import *
 from BasicAlgorithms.IterateArray import *
 from BasicAlgorithms.FindMaximumValue import *
+from BasicAlgorithms.FindAverageValue import *
 
 # print("hello world")
 
@@ -21,5 +22,8 @@ testArray = [1, 12, 3, 4, 6]
 # IterateArray_For(testArray)
 # IterateArray_While(testArray)
 
-FindMaximumValue_For(testArray)
-FindMaximumValue_While(testArray)
+# FindMaximumValue_For(testArray)
+# FindMaximumValue_While(testArray)
+
+FindAverageValue_For(testArray)
+FindAverageValue_While(testArray)
