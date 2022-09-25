@@ -199,5 +199,7 @@
 
 [FizzBuzz.cs](./CSharp/BasicAlgorithms/FizzBuzz.cs)
 
+[FizzBuzz.py](./Python/BasicAlgorithms/FizzBuzz.py)
+
 [FizzBuzz.rb](./Ruby/BasicAlgorithms/FizzBuzz.rb)
 

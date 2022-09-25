@@ -10,6 +10,7 @@ from BasicAlgorithms.FindGreaterThanYValues import *
 from BasicAlgorithms.SquareArrayValues import *
 from BasicAlgorithms.AbsoluteValues import *
 from BasicAlgorithms.ShiftArray import *
+from BasicAlgorithms.FizzBuzz import *
 
 # print("hello world")
 
@@ -47,5 +48,10 @@ testArray = [1, 12, 3, -4, -6]
 # AbsoluteValues_For(testArray)
 # AbsoluteValues_While(testArray)
 
-ShiftArray_For(testArray)
-ShiftArray_While(testArray)
+# ShiftArray_For(testArray)
+# ShiftArray_While(testArray)
+
+testArray = [-1, -3, 2, 12, 3, 4]
+
+FizzBuzz_For(testArray)
+FizzBuzz_While(testArray)
