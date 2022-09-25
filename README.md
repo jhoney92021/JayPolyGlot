@@ -5,6 +5,8 @@
 
 * [C# Basics](./CSharp/README.md)
 
+* [Python Basics](./Python/README.md)
+
 * [Ruby Basics](./Ruby/README.md)
 
 * [VB .NET Basics](./VisualBasic/README.md)

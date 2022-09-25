@@ -16,6 +16,8 @@
 
 [PrintTo255.cs](./CSharp/BasicAlgorithms/PrintTo255.cs)
 
+[PrintTo255.py](./Python/BasicAlgorithms/PrintTo255.py)
+
 [PrintTo255.rb](./Ruby/BasicAlgorithms/PrintTo255.rb)
 
 [PrintTo255.vb](./VisualBasic/BasicAlgorithms/PrintTo255.vb)
