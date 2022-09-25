@@ -119,6 +119,8 @@
 
 [FindOddValues.cs](./CSharp/BasicAlgorithms/FindOddValues.cs)
 
+[FindOddValues.py](./Python/BasicAlgorithms/FindOddValues.py)
+
 [FindOddValues.rb](./Ruby/BasicAlgorithms/FindOddValues.rb)
 
 ## Find values of an array greater than y ##
