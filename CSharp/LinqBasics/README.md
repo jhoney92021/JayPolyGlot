@@ -50,3 +50,4 @@
 
 ## Example Linq ##
 * [Find Odd Values Of Array](./FindOddValues.cs)
+* [Complex Object Collections](./ComparingPeople.cs)
