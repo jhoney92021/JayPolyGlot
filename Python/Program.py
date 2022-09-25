@@ -7,6 +7,7 @@ from BasicAlgorithms.FindMaximumValue import *
 from BasicAlgorithms.FindAverageValue import *
 from BasicAlgorithms.FindOddValues import *
 from BasicAlgorithms.FindGreaterThanYValues import *
+from BasicAlgorithms.SquareArrayValues import *
 
 # print("hello world")
 
@@ -33,5 +34,8 @@ testArray = [1, 12, 3, 4, 6]
 # FindOddValues_For(testArray)
 # FindOddValues_While(testArray)
 
-FindGreaterThanYValues_For(testArray,3)
-FindGreaterThanYValues_While(testArray,3)
+# FindGreaterThanYValues_For(testArray,3)
+# FindGreaterThanYValues_While(testArray,3)
+
+SquareArrayValues_For(testArray)
+SquareArrayValues_While(testArray)

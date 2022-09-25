@@ -151,6 +151,8 @@
 
 [SquareArrayValues.cs](./CSharp/BasicAlgorithms/SquareArrayValues.cs)
 
+[SquareArrayValues.py](./Python/BasicAlgorithms/SquareArrayValues.py)
+
 [SquareArrayValues.rb](./Ruby/BasicAlgorithms/SquareArrayValues.rb)
 
 ## Get the absolute value of all integers in an array ##
