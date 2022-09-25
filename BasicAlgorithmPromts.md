@@ -136,6 +136,8 @@
 
 [FindGreaterThanYValues.cs](./CSharp/BasicAlgorithms/FindGreaterThanYValues.cs)
 
+[FindGreaterThanYValues.py](./Python/BasicAlgorithms/FindGreaterThanYValues.py)
+
 [FindGreaterThanYValues.rb](./Ruby/BasicAlgorithms/FindGreaterThanYValues.rb)
 
 ## Square all values of an array ##
