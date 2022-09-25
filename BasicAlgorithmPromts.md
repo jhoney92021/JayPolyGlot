@@ -87,6 +87,8 @@
 
 [FindMaximumValue.cs](./CSharp/BasicAlgorithms/FindMaximumValue.cs)
 
+[FindMaximumValue.py](./Python/BasicAlgorithms/FindMaximumValue.py)
+
 [FindMaximumValue.rb](./Ruby/BasicAlgorithms/FindMaximumValue.rb)
 
 ## Find average value of an array ##
