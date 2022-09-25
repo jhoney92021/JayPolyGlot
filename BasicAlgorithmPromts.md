@@ -29,6 +29,8 @@
 
 [PrintOddsTo255.cs](./CSharp/BasicAlgorithms/PrintOddsTo255.cs)
 
+[PrintOddsTo255.py](./Python/BasicAlgorithms/PrintOddsTo255.py)
+
 [PrintOddsTo255.rb](./Ruby/BasicAlgorithms/PrintOddsTo255.rb)
 
 [PrintOddsTo255.vb](./VisualBasic/BasicAlgorithms/PrintOddsTo255.vb)
