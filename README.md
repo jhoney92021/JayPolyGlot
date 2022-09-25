@@ -7,7 +7,7 @@
 
 * [Ruby Basics](./Ruby/README.md)
 
-* [VB Basics](./VisualBasic/README.md)
+* [VB .NET Basics](./VisualBasic/README.md)
 
 ## Intent ##
 * The basic intent of this repo is to practice
