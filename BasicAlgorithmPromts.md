@@ -180,6 +180,8 @@
     
 [ShiftArray.cs](./CSharp/BasicAlgorithms/ShiftArray.cs)
 
+[ShiftArray.py](./Python/BasicAlgorithms/ShiftArray.py)
+
 [ShiftArray.rb](./Ruby/BasicAlgorithms/ShiftArray.rb)
 
 ## Fizz Buzz and array ##

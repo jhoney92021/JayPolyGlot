@@ -9,6 +9,7 @@ from BasicAlgorithms.FindOddValues import *
 from BasicAlgorithms.FindGreaterThanYValues import *
 from BasicAlgorithms.SquareArrayValues import *
 from BasicAlgorithms.AbsoluteValues import *
+from BasicAlgorithms.ShiftArray import *
 
 # print("hello world")
 
@@ -43,5 +44,8 @@ testArray = [1, 12, 3, 4, 6]
 
 testArray = [1, 12, 3, -4, -6]
 
-AbsoluteValues_For(testArray)
-AbsoluteValues_While(testArray)
+# AbsoluteValues_For(testArray)
+# AbsoluteValues_While(testArray)
+
+ShiftArray_For(testArray)
+ShiftArray_While(testArray)
