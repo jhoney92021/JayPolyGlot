@@ -7,6 +7,8 @@
 
 * [Ruby Basics](./Ruby/README.md)
 
+* [VB Basics](./VisualBasic/README.md)
+
 ## Intent ##
 * The basic intent of this repo is to practice
     basic programming across language IE C#, Java, Ruby, etc
