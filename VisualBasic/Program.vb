@@ -12,9 +12,16 @@ Module Program
         ' PrintOddsTo255._While()
         ' PrintOddsTo255._DoWhile()
 
-        PrintSum._For()
-        PrintSum._While()
-        PrintSum._DoWhile()
+        ' PrintSum._For()
+        ' PrintSum._While()
+        ' PrintSum._DoWhile()
+
+        Dim TestIntegerArray = New Integer() {1, 12, 3, 4, 6}
+
+        ' IterateArray._For(TestIntegerArray)
+        ' IterateArray._While(TestIntegerArray)
+        ' IterateArray._DoWhile(TestIntegerArray)
+        IterateArray._ForEach(TestIntegerArray)
 
     End Sub
 End Module

@@ -64,6 +64,8 @@
 
 [IterateArray.rb](./Ruby/BasicAlgorithms/IterateArray.rb)
 
+[IterateArray.vb](./VisualBasic/BasicAlgorithms/IterateArray.vb)
+
 ## Find maximum(biggest) value of an array ##
 
     Write a function that takes an integer array and prints and returns the maximum value in the array. 
