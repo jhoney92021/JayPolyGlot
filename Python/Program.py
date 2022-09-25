@@ -8,6 +8,7 @@ from BasicAlgorithms.FindAverageValue import *
 from BasicAlgorithms.FindOddValues import *
 from BasicAlgorithms.FindGreaterThanYValues import *
 from BasicAlgorithms.SquareArrayValues import *
+from BasicAlgorithms.AbsoluteValues import *
 
 # print("hello world")
 
@@ -37,5 +38,10 @@ testArray = [1, 12, 3, 4, 6]
 # FindGreaterThanYValues_For(testArray,3)
 # FindGreaterThanYValues_While(testArray,3)
 
-SquareArrayValues_For(testArray)
-SquareArrayValues_While(testArray)
+# SquareArrayValues_For(testArray)
+# SquareArrayValues_While(testArray)
+
+testArray = [1, 12, 3, -4, -6]
+
+AbsoluteValues_For(testArray)
+AbsoluteValues_While(testArray)

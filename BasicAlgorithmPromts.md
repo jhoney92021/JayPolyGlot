@@ -165,6 +165,8 @@
 
 [AbsoluteValues.cs](./CSharp/BasicAlgorithms/AbsoluteValues.cs)
 
+[AbsoluteValues.py](./Python/BasicAlgorithms/AbsoluteValues.py)
+
 [AbsoluteValues.rb](./Ruby/BasicAlgorithms/AbsoluteValues.rb)
 
 ## Shift all values of an array ##
