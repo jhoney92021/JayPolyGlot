@@ -1,4 +1,6 @@
-﻿namespace CSharpBasics;
+﻿using LinqBasics;
+
+namespace CSharpBasics;
 
 class Program
 {
@@ -54,9 +56,11 @@ class Program
         //BasicAlgorithms.ShiftArray_Do_While(TestValues.TestLargeArray);
         //BasicAlgorithms.ShiftArray_While(TestValues.TestLargeArray);
         
-        BasicAlgorithms.FizzBuzz_For(TestValues.TestFizzBuzzArray);
-        BasicAlgorithms.FizzBuzz_Do_While(TestValues.TestFizzBuzzArray);
-        BasicAlgorithms.FizzBuzz_While(TestValues.TestFizzBuzzArray);
+        // BasicAlgorithms.FizzBuzz_For(TestValues.TestFizzBuzzArray);
+        // BasicAlgorithms.FizzBuzz_Do_While(TestValues.TestFizzBuzzArray);
+        // BasicAlgorithms.FizzBuzz_While(TestValues.TestFizzBuzzArray);
+
+        LinqBasicAlgorithms.FindOddValues(TestValues.TestIntegerArray);
 
     }
 }
