@@ -1,3 +1,5 @@
+using CSharpBasics.Shared;
+
 namespace CSharpBasics;
 
 /* 
@@ -39,7 +41,7 @@ public static partial class BasicAlgorithms
             *   this foreach is to validate
             *   the created array independently
             */
-            Console.WriteLine($"~~~ fizzBuzzArray -- For Loop -- Value: {value} ~~~");
+            JayLogger.PrintObjectInBlueWithMethod(value);
         }
         return fizzBuzzArray;
     }
@@ -74,7 +76,7 @@ public static partial class BasicAlgorithms
             *   this foreach is to validate
             *   the created array independently
             */
-            Console.WriteLine($"~~~ fizzBuzzArray -- Do While Loop -- Value: {value} ~~~");
+            JayLogger.PrintObjectInBlueWithMethod(value);
         }
         return fizzBuzzArray;
     }
@@ -108,7 +110,7 @@ public static partial class BasicAlgorithms
             *   this foreach is to validate
             *   the created array independently
             */
-            Console.WriteLine($"~~~ fizzBuzzArray -- While Loop -- Value: {value} ~~~");
+            JayLogger.PrintObjectInBlueWithMethod(value);
         }
         return fizzBuzzArray;
     }
