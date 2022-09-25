@@ -27,9 +27,9 @@
 
 [PrintOddsTo255.cs](./CSharp/BasicAlgorithms/PrintOddsTo255.cs)
 
-[PrintOddsTo255.vb](./Ruby/BasicAlgorithms/PrintOddsTo255.vb)
+[PrintOddsTo255.rb](./Ruby/BasicAlgorithms/PrintOddsTo255.rb)
 
-[PrintOddsTo255.rb](./VisualBasic/BasicAlgorithms/PrintOddsTo255.rb)
+[PrintOddsTo255.vb](./VisualBasic/BasicAlgorithms/PrintOddsTo255.vb)
 
 ## Print sum of 1-255 ##
 
