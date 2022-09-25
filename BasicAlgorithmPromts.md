@@ -48,6 +48,8 @@
 
 [PrintSum.cs](./CSharp/BasicAlgorithms/PrintSum.cs)
 
+[PrintSum.py](./Python/BasicAlgorithms/PrintSum.py)
+
 [PrintSum.rb](./Ruby/BasicAlgorithms/PrintSum.rb)
 
 [PrintSum.vb](./VisualBasic/BasicAlgorithms/PrintSum.vb)
