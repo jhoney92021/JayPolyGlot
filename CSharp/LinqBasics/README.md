@@ -20,8 +20,33 @@
     I have personally been guilty of abusing
 
     .Join()
-    
+
     Which can be hard for people who don't use that operation regularly to read and understand
+
+    An example of the positive side would be
+    eliminating the use of a loop 
+    
+    like this
+        ------------------------------------------------
+        int[] oddArray = new int[0];
+        for (int iterator = 0; iterator < integerArray.Length; iterator++)
+        {
+            if(integerArray[iterator] % 2 == 1)
+            {
+                oddArray = oddArray.AddValue(integerArray[iterator]);
+            }
+        }
+        return oddArray;
+        ------------------------------------------------
+
+    with this
+        ------------------------------------------------
+        int[] oddArray = integerArray
+        .Where(number => (number % 2 == 1))
+        .ToArray();        
+
+        return oddArray;
+        ------------------------------------------------
 
 ## Example Linq ##
 * [Find Odd Values Of Array](./FindOddValues.cs)
