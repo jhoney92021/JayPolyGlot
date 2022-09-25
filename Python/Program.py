@@ -1,4 +1,4 @@
-from BasicAlorithms.PrintTo255 import *
+from BasicAlgorithms.PrintTo255 import *
 
 # print("hello world")
 # PrintTo255_For()
