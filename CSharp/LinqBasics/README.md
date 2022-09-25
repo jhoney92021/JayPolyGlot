@@ -18,8 +18,10 @@
 
     Overuse can lead to the opposite result
     I have personally been guilty of abusing
+
     .Join()
-    Which can be hard for people who don't use that operation regularly
+    
+    Which can be hard for people who don't use that operation regularly to read and understand
 
 ## Example Linq ##
 * [Find Odd Values Of Array](./FindOddValues.cs)
