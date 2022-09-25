@@ -2,6 +2,7 @@
 * [Main Notes](../README.md#quick-links)
 
 ### Quick Links ###
+* [Linq Basics](./LinqBasics/README.md)
 * [Loops](./Documentation/Loops.md)
 * [DotNet CLI Commands](#dotnet_cli_commands)
 * [DotNet Version Notes](#dotnet_version_notes)
