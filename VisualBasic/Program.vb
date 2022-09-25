@@ -10,7 +10,11 @@ Module Program
 
         ' PrintOddsTo255._For()
         ' PrintOddsTo255._While()
-        PrintOddsTo255._DoWhile()
+        ' PrintOddsTo255._DoWhile()
+
+        PrintSum._For()
+        PrintSum._While()
+        PrintSum._DoWhile()
 
     End Sub
 End Module

@@ -46,6 +46,8 @@
 
 [PrintSum.rb](./Ruby/BasicAlgorithms/PrintSum.rb)
 
+[PrintSum.vb](./VisualBasic/BasicAlgorithms/PrintSum.vb)
+
 ## Iterate through an array ##
 
      Write a function that would iterate through each item of the given integer array 
