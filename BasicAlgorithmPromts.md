@@ -175,6 +175,9 @@
 
 [SquareArrayValues.cs](./CSharp/BasicAlgorithms/SquareArrayValues.cs)
 
+[SquareArrayValues.js](./JavaScript/BasicAlgorithms/SquareArrayValues.js)
+- [SquareArrayValues.ts](./TypeScript/BasicAlgorithms/SquareArrayValues.ts)
+
 [SquareArrayValues.py](./Python/BasicAlgorithms/SquareArrayValues.py)
 
 [SquareArrayValues.rb](./Ruby/BasicAlgorithms/SquareArrayValues.rb)
@@ -188,6 +191,9 @@
     output: [1,  5, 10,  2]
 
 [AbsoluteValues.cs](./CSharp/BasicAlgorithms/AbsoluteValues.cs)
+
+[AbsoluteValues.js](./JavaScript/BasicAlgorithms/AbsoluteValues.js)
+- [AbsoluteValues.ts](./TypeScript/BasicAlgorithms/AbsoluteValues.ts)
 
 [AbsoluteValues.py](./Python/BasicAlgorithms/AbsoluteValues.py)
 

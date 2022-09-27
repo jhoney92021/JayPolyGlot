@@ -6,6 +6,8 @@ import * as FindMaximumValue from "./BasicAlgorithms/FindMaximumValue.js"
 import * as FindAverageValue from "./BasicAlgorithms/FindAverageValue.js"
 import * as FindOddValues from "./BasicAlgorithms/FindOddValues.js"
 import * as FindGreaterThanYValues from "./BasicAlgorithms/FindGreaterThanYValues.js"
+import * as SquareArrayValues from "./BasicAlgorithms/SquareArrayValues.js"
+import * as AbsoluteValues from "./BasicAlgorithms/AbsoluteValues.js"
 
 // console.log("hello js")
 
@@ -53,8 +55,22 @@ const testArray = [1, 12, 3, 4, 6]
 // FindOddValues.While(testArray);
 // FindOddValues.DoWhile(testArray);
 
-FindGreaterThanYValues.For(testArray, 3);
-FindGreaterThanYValues.ForIn(testArray, 3);
-FindGreaterThanYValues.ForOf(testArray, 3);
-FindGreaterThanYValues.While(testArray, 3);
-FindGreaterThanYValues.DoWhile(testArray, 3);
+// FindGreaterThanYValues.For(testArray, 3);
+// FindGreaterThanYValues.ForIn(testArray, 3);
+// FindGreaterThanYValues.ForOf(testArray, 3);
+// FindGreaterThanYValues.While(testArray, 3);
+// FindGreaterThanYValues.DoWhile(testArray, 3);
+
+SquareArrayValues.For(testArray);
+SquareArrayValues.ForIn(testArray);
+SquareArrayValues.ForOf(testArray);
+SquareArrayValues.While(testArray);
+SquareArrayValues.DoWhile(testArray);
+
+const TestNegativeArray  = [1, -5, 10, -2];
+
+AbsoluteValues.For(TestNegativeArray);
+AbsoluteValues.ForIn(TestNegativeArray);
+AbsoluteValues.ForOf(TestNegativeArray);
+AbsoluteValues.While(TestNegativeArray);
+AbsoluteValues.DoWhile(TestNegativeArray);
