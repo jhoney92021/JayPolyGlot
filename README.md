@@ -5,6 +5,9 @@
 
 * [C# Basics](./CSharp/README.md)
 
+* [Java Script Basics](./JavaScript/README.md)
+    - [Type Script Basics](./TypeScript/README.md)
+
 * [Python Basics](./Python/README.md)
 
 * [Ruby Basics](./Ruby/README.md)

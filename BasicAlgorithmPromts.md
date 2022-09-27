@@ -16,6 +16,9 @@
 
 [PrintTo255.cs](./CSharp/BasicAlgorithms/PrintTo255.cs)
 
+[PrintTo255.js](./JavaScript/BasicAlgorithms/PrintTo255.js)
+- [PrintTo255.ts](./TypeScript/BasicAlgorithms/PrintTo255.ts)
+
 [PrintTo255.py](./Python/BasicAlgorithms/PrintTo255.py)
 
 [PrintTo255.rb](./Ruby/BasicAlgorithms/PrintTo255.rb)
@@ -28,6 +31,9 @@
     from 1 to 255 to console
 
 [PrintOddsTo255.cs](./CSharp/BasicAlgorithms/PrintOddsTo255.cs)
+
+[PrintTo255.js](./JavaScript/BasicAlgorithms/PrintTo255.js)
+- [PrintTo255.ts](./TypeScript/BasicAlgorithms/PrintTo255.ts)
 
 [PrintOddsTo255.py](./Python/BasicAlgorithms/PrintOddsTo255.py)
 
@@ -47,6 +53,9 @@
     New Number: 2 Sum: 3
 
 [PrintSum.cs](./CSharp/BasicAlgorithms/PrintSum.cs)
+
+[PrintTo255.js](./JavaScript/BasicAlgorithms/PrintTo255.js)
+- [PrintTo255.ts](./TypeScript/BasicAlgorithms/PrintTo255.ts)
 
 [PrintSum.py](./Python/BasicAlgorithms/PrintSum.py)
 
