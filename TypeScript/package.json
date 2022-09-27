@@ -1,0 +1,18 @@
+{
+  "name": "TypeScriptBasics",
+  "version": "1.0.0",
+  "description": "basic type script stuff",
+  "main": "./Program.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhoney92021/JayPolyGlot"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "jhoney",
+  "license": "UNLICENSED"
+}
