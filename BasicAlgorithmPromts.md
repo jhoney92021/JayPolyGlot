@@ -157,6 +157,9 @@
 
 [FindGreaterThanYValues.cs](./CSharp/BasicAlgorithms/FindGreaterThanYValues.cs)
 
+[FindGreaterThanYValues.js](./JavaScript/BasicAlgorithms/FindGreaterThanYValues.js)
+- [FindGreaterThanYValues.ts](./TypeScript/BasicAlgorithms/FindGreaterThanYValues.ts)
+
 [FindGreaterThanYValues.py](./Python/BasicAlgorithms/FindGreaterThanYValues.py)
 
 [FindGreaterThanYValues.rb](./Ruby/BasicAlgorithms/FindGreaterThanYValues.rb)

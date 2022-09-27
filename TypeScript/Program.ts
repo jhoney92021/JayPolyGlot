@@ -5,6 +5,7 @@ import * as IterateArray from "./BasicAlgorithms/IterateArray"
 import * as FindMaximumValue from "./BasicAlgorithms/FindMaximumValue"
 import * as FindAverageValue from "./BasicAlgorithms/FindAverageValue"
 import * as FindOddValues from "./BasicAlgorithms/FindOddValues"
+import * as FindGreaterThanYValues from "./BasicAlgorithms/FindGreaterThanYValues"
 
 // console.log("hello ts")
 
@@ -46,8 +47,14 @@ const testArray: Array<number> = [1, 12, 3, 4, 6]
 // FindAverageValue.While(testArray);
 // FindAverageValue.DoWhile(testArray);
 
-FindOddValues.For(testArray);
-FindOddValues.ForIn(testArray);
-FindOddValues.ForOf(testArray);
-FindOddValues.While(testArray);
-FindOddValues.DoWhile(testArray);
+// FindOddValues.For(testArray);
+// FindOddValues.ForIn(testArray);
+// FindOddValues.ForOf(testArray);
+// FindOddValues.While(testArray);
+// FindOddValues.DoWhile(testArray);
+
+FindGreaterThanYValues.For(testArray, 3);
+FindGreaterThanYValues.ForIn(testArray, 3);
+FindGreaterThanYValues.ForOf(testArray, 3);
+FindGreaterThanYValues.While(testArray, 3);
+FindGreaterThanYValues.DoWhile(testArray, 3);
