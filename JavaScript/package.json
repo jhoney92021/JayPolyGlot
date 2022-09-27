@@ -1,0 +1,19 @@
+{
+  "name": "JavaScriptBasics",
+  "version": "1.0.0",
+  "description": "basic java script stuff",
+  "main": "./Program.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhoney92021/JayPolyGlot"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "jhoney",
+  "license": "UNLICENSED",
+  "type": "module"
+}
