@@ -210,6 +210,9 @@
     
 [ShiftArray.cs](./CSharp/BasicAlgorithms/ShiftArray.cs)
 
+[ShiftArray.js](./JavaScript/BasicAlgorithms/ShiftArray.js)
+- [ShiftArray.ts](./TypeScript/BasicAlgorithms/ShiftArray.ts)
+
 [ShiftArray.py](./Python/BasicAlgorithms/ShiftArray.py)
 
 [ShiftArray.rb](./Ruby/BasicAlgorithms/ShiftArray.rb)
@@ -228,6 +231,9 @@
     output: ["Fizz", "FizzBuzz", 2, "Buzz", "Buzz", 4].
 
 [FizzBuzz.cs](./CSharp/BasicAlgorithms/FizzBuzz.cs)
+
+[FizzBuzz.js](./JavaScript/BasicAlgorithms/FizzBuzz.js)
+- [FizzBuzz.ts](./TypeScript/BasicAlgorithms/FizzBuzz.ts)
 
 [FizzBuzz.py](./Python/BasicAlgorithms/FizzBuzz.py)
 

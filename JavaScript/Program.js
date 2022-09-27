@@ -8,6 +8,8 @@ import * as FindOddValues from "./BasicAlgorithms/FindOddValues.js"
 import * as FindGreaterThanYValues from "./BasicAlgorithms/FindGreaterThanYValues.js"
 import * as SquareArrayValues from "./BasicAlgorithms/SquareArrayValues.js"
 import * as AbsoluteValues from "./BasicAlgorithms/AbsoluteValues.js"
+import * as ShiftArray from "./BasicAlgorithms/ShiftArray.js"
+import * as FizzBuzz from "./BasicAlgorithms/FizzBuzz.js"
 
 // console.log("hello js")
 
@@ -69,8 +71,22 @@ SquareArrayValues.DoWhile(testArray);
 
 const TestNegativeArray  = [1, -5, 10, -2];
 
-AbsoluteValues.For(TestNegativeArray);
-AbsoluteValues.ForIn(TestNegativeArray);
-AbsoluteValues.ForOf(TestNegativeArray);
-AbsoluteValues.While(TestNegativeArray);
-AbsoluteValues.DoWhile(TestNegativeArray);
+// AbsoluteValues.For(TestNegativeArray);
+// AbsoluteValues.ForIn(TestNegativeArray);
+// AbsoluteValues.ForOf(TestNegativeArray);
+// AbsoluteValues.While(TestNegativeArray);
+// AbsoluteValues.DoWhile(TestNegativeArray);
+
+ShiftArray.For(TestNegativeArray);
+ShiftArray.ForIn(TestNegativeArray);
+ShiftArray.ForOf(TestNegativeArray);
+ShiftArray.While(TestNegativeArray);
+ShiftArray.DoWhile(TestNegativeArray);
+
+const TestFizzBuzzArray   = [-1, -3, 2, 12, 3, 4];
+
+FizzBuzz.For(TestFizzBuzzArray);
+FizzBuzz.ForIn(TestFizzBuzzArray);
+FizzBuzz.ForOf(TestFizzBuzzArray);
+FizzBuzz.While(TestFizzBuzzArray);
+FizzBuzz.DoWhile(TestFizzBuzzArray);
