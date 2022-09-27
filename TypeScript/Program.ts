@@ -3,6 +3,8 @@ import * as PrintOddsTo255 from "./BasicAlgorithms/PrintOddsTo255"
 import * as PrintSum from "./BasicAlgorithms/PrintSum"
 import * as IterateArray from "./BasicAlgorithms/IterateArray"
 import * as FindMaximumValue from "./BasicAlgorithms/FindMaximumValue"
+import * as FindAverageValue from "./BasicAlgorithms/FindAverageValue"
+import * as FindOddValues from "./BasicAlgorithms/FindOddValues"
 
 // console.log("hello ts")
 
@@ -38,3 +40,14 @@ const testArray: Array<number> = [1, 12, 3, 4, 6]
 // FindMaximumValue.While(testArray);
 // FindMaximumValue.DoWhile(testArray);
 
+// FindAverageValue.For(testArray);
+// FindAverageValue.ForIn(testArray);
+// FindAverageValue.ForOf(testArray);
+// FindAverageValue.While(testArray);
+// FindAverageValue.DoWhile(testArray);
+
+FindOddValues.For(testArray);
+FindOddValues.ForIn(testArray);
+FindOddValues.ForOf(testArray);
+FindOddValues.While(testArray);
+FindOddValues.DoWhile(testArray);

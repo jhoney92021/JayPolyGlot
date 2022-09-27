@@ -77,6 +77,9 @@
 
 [IterateArray.cs](./CSharp/BasicAlgorithms/IterateArray.cs)
 
+[IterateArray.js](./JavaScript/BasicAlgorithms/IterateArray.js)
+- [IterateArray.ts](./TypeScript/BasicAlgorithms/IterateArray.ts)
+
 [IterateArray.py](./Python/BasicAlgorithms/IterateArray.py)
 
 [IterateArray.rb](./Ruby/BasicAlgorithms/IterateArray.rb)
@@ -96,6 +99,9 @@
 
 [FindMaximumValue.cs](./CSharp/BasicAlgorithms/FindMaximumValue.cs)
 
+[FindMaximumValue.js](./JavaScript/BasicAlgorithms/FindMaximumValue.js)
+- [FindMaximumValue.ts](./TypeScript/BasicAlgorithms/FindMaximumValue.ts)
+
 [FindMaximumValue.py](./Python/BasicAlgorithms/FindMaximumValue.py)
 
 [FindMaximumValue.rb](./Ruby/BasicAlgorithms/FindMaximumValue.rb)
@@ -110,6 +116,9 @@
     output: 5
 
 [FindAverageValue.cs](./CSharp/BasicAlgorithms/FindAverageValue.cs)
+
+[FindAverageValue.js](./JavaScript/BasicAlgorithms/FindAverageValue.js)
+- [FindAverageValue.ts](./TypeScript/BasicAlgorithms/FindAverageValue.ts)
 
 [FindAverageValue.py](./Python/BasicAlgorithms/FindAverageValue.py)
 
@@ -127,6 +136,9 @@
     output: [1, 3]
 
 [FindOddValues.cs](./CSharp/BasicAlgorithms/FindOddValues.cs)
+
+[FindOddValues.js](./JavaScript/BasicAlgorithms/FindOddValues.js)
+- [FindOddValues.ts](./TypeScript/BasicAlgorithms/FindOddValues.ts)
 
 [FindOddValues.py](./Python/BasicAlgorithms/FindOddValues.py)
 

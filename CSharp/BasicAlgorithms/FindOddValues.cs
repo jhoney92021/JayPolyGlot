@@ -3,8 +3,6 @@ using CSharpBasics.Helpers;
 namespace CSharpBasics;
 
 /* 
-* Relates to BasicAlgorithmPromts.md#Findoddvaluesofanarray
-*
 * Write a function that creates, and then returns
 * 
 * an array that contains all the odd numbers 
