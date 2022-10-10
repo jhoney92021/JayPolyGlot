@@ -239,3 +239,40 @@
 
 [FizzBuzz.rb](./Ruby/BasicAlgorithms/FizzBuzz.rb)
 
+## mode is mean ##
+
+    Write a function that takes an integer array and returns true or false
+
+    Then examines a series of numbers
+
+    And determines the mode IE(most common number in a series)
+        mean (sum of a series divided by the total number of memebers in a series)
+    
+    Finally returns whether those numbers are the same.
+
+    input:  [1,2,3,4]
+    output: false
+    
+    input:  [3,3,3]
+    output: true
+
+
+
+## Keyboard input IE the backspace problem ##
+
+    Write a function that takes two strings
+
+    Then compares those strings for a match
+        However, whenever the component of the string says -B
+        delete the preceding character, and -B is a keystoke that does not
+        actually have a string value
+
+    Return whether those ultimate string values matched
+
+    input:  "a,b,c,d" , "a,b,c,d,-B,d"
+    output: true
+    
+    input:  "a,b,c,d" , "a,b,c,d,-B,d,-B"
+    output: false
+
+
