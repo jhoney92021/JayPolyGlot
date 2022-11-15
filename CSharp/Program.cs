@@ -60,10 +60,16 @@ class Program
         // BasicAlgorithms.FizzBuzz_Do_While(TestValues.TestFizzBuzzArray);
         // BasicAlgorithms.FizzBuzz_While(TestValues.TestFizzBuzzArray);
 
+        BasicAlgorithms.FindFibbonacciNumberAtPosition(0);
+        BasicAlgorithms.FindFibbonacciNumberAtPosition(1);
+        BasicAlgorithms.FindFibbonacciNumberAtPosition(2);
+        BasicAlgorithms.FindFibbonacciNumberAtPosition(11);
+        BasicAlgorithms.FindFibbonacciNumberAtPosition(111);
+
         // LinqBasicAlgorithms.FindOddValues(TestValues.TestIntegerArray);
         
-        ComparingPeople.GetIllPeople();
-        ComparingPeople.GetStandardPeople();
+        // ComparingPeople.GetIllPeople();
+        // ComparingPeople.GetStandardPeople();
 
     }
 }

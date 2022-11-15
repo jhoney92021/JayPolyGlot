@@ -10,6 +10,7 @@ import * as SquareArrayValues from "./BasicAlgorithms/SquareArrayValues.js"
 import * as AbsoluteValues from "./BasicAlgorithms/AbsoluteValues.js"
 import * as ShiftArray from "./BasicAlgorithms/ShiftArray.js"
 import * as FizzBuzz from "./BasicAlgorithms/FizzBuzz.js"
+import * as FindFibbonacciNumber from "./BasicAlgorithms/FindFibbonacciNumber.js"
 
 // console.log("hello js")
 
@@ -63,11 +64,11 @@ const testArray = [1, 12, 3, 4, 6]
 // FindGreaterThanYValues.While(testArray, 3);
 // FindGreaterThanYValues.DoWhile(testArray, 3);
 
-SquareArrayValues.For(testArray);
-SquareArrayValues.ForIn(testArray);
-SquareArrayValues.ForOf(testArray);
-SquareArrayValues.While(testArray);
-SquareArrayValues.DoWhile(testArray);
+// SquareArrayValues.For(testArray);
+// SquareArrayValues.ForIn(testArray);
+// SquareArrayValues.ForOf(testArray);
+// SquareArrayValues.While(testArray);
+// SquareArrayValues.DoWhile(testArray);
 
 const TestNegativeArray  = [1, -5, 10, -2];
 
@@ -77,16 +78,20 @@ const TestNegativeArray  = [1, -5, 10, -2];
 // AbsoluteValues.While(TestNegativeArray);
 // AbsoluteValues.DoWhile(TestNegativeArray);
 
-ShiftArray.For(TestNegativeArray);
-ShiftArray.ForIn(TestNegativeArray);
-ShiftArray.ForOf(TestNegativeArray);
-ShiftArray.While(TestNegativeArray);
-ShiftArray.DoWhile(TestNegativeArray);
+// ShiftArray.For(TestNegativeArray);
+// ShiftArray.ForIn(TestNegativeArray);
+// ShiftArray.ForOf(TestNegativeArray);
+// ShiftArray.While(TestNegativeArray);
+// ShiftArray.DoWhile(TestNegativeArray);
 
 const TestFizzBuzzArray   = [-1, -3, 2, 12, 3, 4];
 
-FizzBuzz.For(TestFizzBuzzArray);
-FizzBuzz.ForIn(TestFizzBuzzArray);
-FizzBuzz.ForOf(TestFizzBuzzArray);
-FizzBuzz.While(TestFizzBuzzArray);
-FizzBuzz.DoWhile(TestFizzBuzzArray);
+// FizzBuzz.For(TestFizzBuzzArray);
+// FizzBuzz.ForIn(TestFizzBuzzArray);
+// FizzBuzz.ForOf(TestFizzBuzzArray);
+// FizzBuzz.While(TestFizzBuzzArray);
+// FizzBuzz.DoWhile(TestFizzBuzzArray);
+
+FindFibbonacciNumber.AtPosition(0);
+FindFibbonacciNumber.AtPosition(1);
+FindFibbonacciNumber.AtPosition(11);

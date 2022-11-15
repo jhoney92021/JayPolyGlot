@@ -10,6 +10,7 @@ import * as SquareArrayValues from "./BasicAlgorithms/SquareArrayValues"
 import * as AbsoluteValues from "./BasicAlgorithms/AbsoluteValues"
 import * as ShiftArray from "./BasicAlgorithms/ShiftArray"
 import * as FizzBuzz from "./BasicAlgorithms/FizzBuzz"
+import * as FindFibbonacciNumber from "./BasicAlgorithms/FindFibbonacciNumber"
 
 // console.log("hello ts")
 
@@ -85,8 +86,12 @@ const TestNegativeArray  = [1, -5, 10, -2];
 
 const TestFizzBuzzArray   = [-1, -3, 2, 12, 3, 4];
 
-FizzBuzz.For(TestFizzBuzzArray);
-FizzBuzz.ForIn(TestFizzBuzzArray);
-FizzBuzz.ForOf(TestFizzBuzzArray);
-FizzBuzz.While(TestFizzBuzzArray);
-FizzBuzz.DoWhile(TestFizzBuzzArray);
+// FizzBuzz.For(TestFizzBuzzArray);
+// FizzBuzz.ForIn(TestFizzBuzzArray);
+// FizzBuzz.ForOf(TestFizzBuzzArray);
+// FizzBuzz.While(TestFizzBuzzArray);
+// FizzBuzz.DoWhile(TestFizzBuzzArray);
+
+FindFibbonacciNumber.AtPosition(0);
+FindFibbonacciNumber.AtPosition(1);
+FindFibbonacciNumber.AtPosition(11);
