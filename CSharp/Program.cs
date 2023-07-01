@@ -1,4 +1,5 @@
 ﻿using LinqBasics;
+using CSharpBasics.LinkedLists;
 
 namespace CSharpBasics;
 
@@ -60,16 +61,43 @@ class Program
         // BasicAlgorithms.FizzBuzz_Do_While(TestValues.TestFizzBuzzArray);
         // BasicAlgorithms.FizzBuzz_While(TestValues.TestFizzBuzzArray);
 
-        BasicAlgorithms.FindFibbonacciNumberAtPosition(0);
-        BasicAlgorithms.FindFibbonacciNumberAtPosition(1);
-        BasicAlgorithms.FindFibbonacciNumberAtPosition(2);
-        BasicAlgorithms.FindFibbonacciNumberAtPosition(11);
-        BasicAlgorithms.FindFibbonacciNumberAtPosition(111);
+        // BasicAlgorithms.FindFibbonacciNumberAtPosition(0);
+        // BasicAlgorithms.FindFibbonacciNumberAtPosition(1);
+        // BasicAlgorithms.FindFibbonacciNumberAtPosition(2);
+        // BasicAlgorithms.FindFibbonacciNumberAtPosition(11);
+        // BasicAlgorithms.FindFibbonacciNumberAtPosition(111);
+
+        // string trueCase = "abc";        
+        // string falseCase = "abac";
+
+        // var trueCaseResult = trueCase.IsUnique();
+        // var falseCaseResult = falseCase.IsUnique();
+        // Console.WriteLine("Results");
+        // Console.WriteLine($"TrueCase: {trueCaseResult}");
+        // Console.WriteLine($"FalseCase: {falseCaseResult}");
 
         // LinqBasicAlgorithms.FindOddValues(TestValues.TestIntegerArray);
         
         // ComparingPeople.GetIllPeople();
         // ComparingPeople.GetStandardPeople();
 
+        LinkedLists.LinkedList<string> linkedList = new LinkedLists.LinkedList<string>();
+
+        linkedList.AddFirst(new LinkedLists.Node<string>("aaa"));
+        linkedList.AddFirst(new LinkedLists.Node<string>("bbb"));
+        linkedList.AddFirst(new LinkedLists.Node<string>("ccc"));
+        linkedList.AddFirst(new LinkedLists.Node<string>("ddd"));
+
+        linkedList.Traverse();
+
+        Console.WriteLine("Adding after");
+        linkedList.AddAfter(new LinkedLists.Node<string>("eee"), linkedList.First.Next.Next);
+        linkedList.Traverse();
+
+        var toRemove = linkedList.FindNode("ccc");
+
+        linkedList.RemoveThisNode(toRemove);
+
+        linkedList.Traverse();
     }
 }
