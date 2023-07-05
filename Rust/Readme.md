@@ -15,3 +15,8 @@
 * with cargo you can
     - cargo build
     - cargo run
+
+    - cargo add
+        * adds a dependancy to project
+    - cargo install
+        * installs a module to a project
