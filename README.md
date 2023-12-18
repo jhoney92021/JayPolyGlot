@@ -3,6 +3,7 @@
 ### Quick Links ###
 * [Mark Down](./MarkDown/README.md)
 * [Basic Algo Prompts](./BasicAlgorithmPromts.md)
+* [Windows Environment Setup](./Windows/README.md)
 * [C Basics](./C/README.md)
 * [C# Basics](./CSharp/README.md)
 * [Java Script Basics](./JavaScript/README.md)
