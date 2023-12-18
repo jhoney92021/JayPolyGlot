@@ -1,17 +1,22 @@
 # JayPolyGlot -- learning programming basic cross lang #
 
-### Quick Links ###
+### Links ###
 * [Git](./Git/README.md)
 * [Mark Down](./MarkDown/README.md)
 * [Basic Algo Prompts](./BasicAlgorithmPromts.md)
 * [Windows Environment Setup](./Windows/README.md)
-* [C Basics](./C/README.md)
-* [C# Basics](./CSharp/README.md)
-* [Java Script Basics](./JavaScript/README.md)
-    - [Type Script Basics](./TypeScript/README.md)
-* [Python Basics](./Python/README.md)
-* [Ruby Basics](./Ruby/README.md)
-* [VB .NET Basics](./VisualBasic/README.md)
+* <details>
+  <summary>Language Basics</summary>
+
+  ## Language Basics
+    * [C Basics](./C/README.md)
+    * [C# Basics](./CSharp/README.md)
+    * [Java Script Basics](./JavaScript/README.md)
+        - [Type Script Basics](./TypeScript/README.md)
+    * [Python Basics](./Python/README.md)
+    * [Ruby Basics](./Ruby/README.md)
+    * [VB .NET Basics](./VisualBasic/README.md)
+</details>
 
 ## Intent ##
 * The basic intent of this repo is to practice
