@@ -1,6 +1,7 @@
 # JayPolyGlot -- learning programming basic cross lang #
 
 ### Quick Links ###
+* [Git](./Git/README.md)
 * [Mark Down](./MarkDown/README.md)
 * [Basic Algo Prompts](./BasicAlgorithmPromts.md)
 * [Windows Environment Setup](./Windows/README.md)
