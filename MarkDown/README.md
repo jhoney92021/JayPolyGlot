@@ -26,10 +26,10 @@
 | Bold             |                                                                                                                       **bold** <br> `**bold**` |
 | Italics          |                                                                                                       _italic_ <br> `_italic_` <br> `*italic*` |
 | Blockquote       |                                                                                                                                   > blockquote |
-| Ordered List     |                                                                                                          1. One <br> 2. Two <br> 3. Foo |
-| Unordered List   |                                                                                                             - Foo <br> - Two <br> - Bar |
+| Ordered List     |                                                                                                                 1. One <br> 2. Two <br> 3. Foo |
+| Unordered List   |                                                                                                                    - Foo <br> - Two <br> - Bar |
 | Horizontal Rule  |                                                                                                                                            --- |
-| Anchor Tag       |                                                                                                <a id="example"></a> `<a name="example"></a>` |
+| Anchor Tag       |                                                                                                    <a id="example"></a> `<a id="example"></a>` |
 | Local Link       |                                                                                                                [Top](#Top) <br> `[Top](#Top) ` |
 | Link             | [www.markdownguide.org](https://www.markdownguide.org/cheat-sheet/) <br> `[www.markdownguide.org](https://www.markdownguide.org/cheat-sheet/)` |
 | Image            |                                                                                      `![alt text](./jay.png)` <br> <br> ![alt text](./jay.png) |
