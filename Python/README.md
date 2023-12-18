@@ -1,12 +1,16 @@
-# jhoney's python notes #
-### Quick Links ###
-* [Home](../README.md)
+# jhoney's python notes
 
-## installation ##
+### Quick Links
+
+- [Home](../README.md)
+
+## installation
+
 - just go here https://www.python.org/downloads/
 
-## cli commands ##
-* python "filename" ie python Program.py
+## cli commands
+
+- python "filename" ie python Program.py
 
 # Python Primitive Types
 
@@ -59,4 +63,4 @@ print(age)           # Output: 25
 print(name)          # Output: John Doe
 print(is_student)    # Output: True
 print(null_value)    # Output: None
-``````
+```

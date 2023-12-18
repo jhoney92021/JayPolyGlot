@@ -1,29 +1,36 @@
-# jhoney's rust notes #
+# jhoney's rust notes
 
-### Quick Links ###
-* [Home](../README.md)
+### Quick Links
 
-## installation ##
+- [Home](../README.md)
+
+## installation
+
 - just go here https://www.rust-lang.org/tools/install
 
-## hello world ##
+## hello world
+
 - https://doc.rust-lang.org/book/ch01-02-hello-world.html
 
-## cli commands ##
-* works kinda like Java/C build then run, unless using Cargo
-    - to run with cargo first build like rustc main.rs
-    - then ./main to run
+## cli commands
 
-* with cargo you can
-    - cargo build
-    - cargo run
+- works kinda like Java/C build then run, unless using Cargo
 
-    - cargo add
-        * adds a dependancy to project
-    - cargo install
-        * installs a module to a project
+  - to run with cargo first build like rustc main.rs
+  - then ./main to run
 
-        # Rust Primitive Types
+- with cargo you can
+
+  - cargo build
+  - cargo run
+
+  - cargo add
+    - adds a dependancy to project
+  - cargo install
+
+    - installs a module to a project
+
+    # Rust Primitive Types
 
 In Rust, primitive types are the basic building blocks for representing simple data values. Rust is known for its strong static typing system, where variable types are explicitly declared at compile time.
 
@@ -71,4 +78,4 @@ let is_working: bool = false;
 println!("Age: {}", age);
 println!("Grade: {}", grade);
 println!("Is Student: {}", is_student);
-``````
+```

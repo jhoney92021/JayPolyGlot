@@ -1,10 +1,13 @@
 # jhoney's MD notes
 
 <a id="Top"></a>
+
 > There is a secret tag up here with id Top
+
     Try Clicking here! [Example](#example)
 
 ### Quick Links
+
 - [Home](../README.md)
 - [Basic Algo Prompts](../BasicAlgorithmPromts.md)
 - [Common Syntax](#CommonSyntax_a)
