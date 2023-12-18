@@ -1,7 +1,5 @@
 # jhoney's Java notes
 
-- [Main Notes](../README.md#quick-links)
-
 ### installation
 
 - go here https://www.oracle.com/java/technologies/downloads/#jdk19-windows
