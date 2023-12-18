@@ -17,19 +17,19 @@
 
 ### Common Syntax
 
-| Action           |     |                                                                                                                                         Syntax |
-| :--------------- | --- | ---------------------------------------------------------------------------------------------------------------------------------------------: |
-| Line Break       |     |                                                                                                                                         `<br>` |
-| Escape Character |     |                                                                                                                                             \  |
-| Code             |     |                                                                                                                                       \`code\` |
-| Heading          |     |                                                                                                                    # H1 <br> ## H2 <br> ### H3 |
-| Bold             |     |                                                                                                                       **bold** <br> `**bold**` |
-| Italics          |     |                                                                                                       _italic_ <br> `_italic_` <br> `*italic*` |
-| Blockquote       |     |                                                                                                                                   > blockquote |
-| Ordered List     |     |                                                                                                          1. First <br> 2. Second <br> 3. Third |
-| Unordered List   |     |                                                                                                             - First <br> - Second <br> - Third |
-| Horizontal Rule  |     |                                                                                                                                            --- |
-| Anchor Tag       |     |                                                                                                <a id="example"></a> `<a name="example"></a>` |
-| Local Link       |     |                                                                                                                [Top](#Top) <br> `[Top](#Top) ` |
-| Link             |     | [www.markdownguide.org](https://www.markdownguide.org/cheat-sheet/) <br> `[www.markdownguide.org](https://www.markdownguide.org/cheat-sheet/)` |
-| Image            |     |                                                                                      `![alt text](./jay.png)` <br> <br> ![alt text](./jay.png) |
+| Action           |                                                                                                                                         Syntax |
+| :--------------- | ---------------------------------------------------------------------------------------------------------------------------------------------: |
+| Line Break       |                                                                                                                                         `<br>` |
+| Escape Character |                                                                                                                                             \  |
+| Code             |                                                                                                                                       \`code\` |
+| Heading          |                                                                                                                    # H1 <br> ## H2 <br> ### H3 |
+| Bold             |                                                                                                                       **bold** <br> `**bold**` |
+| Italics          |                                                                                                       _italic_ <br> `_italic_` <br> `*italic*` |
+| Blockquote       |                                                                                                                                   > blockquote |
+| Ordered List     |                                                                                                          1. One <br> 2. Two <br> 3. Foo |
+| Unordered List   |                                                                                                             - Foo <br> - Two <br> - Bar |
+| Horizontal Rule  |                                                                                                                                            --- |
+| Anchor Tag       |                                                                                                <a id="example"></a> `<a name="example"></a>` |
+| Local Link       |                                                                                                                [Top](#Top) <br> `[Top](#Top) ` |
+| Link             | [www.markdownguide.org](https://www.markdownguide.org/cheat-sheet/) <br> `[www.markdownguide.org](https://www.markdownguide.org/cheat-sheet/)` |
+| Image            |                                                                                      `![alt text](./jay.png)` <br> <br> ![alt text](./jay.png) |
