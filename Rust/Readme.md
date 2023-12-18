@@ -22,3 +22,53 @@
         * adds a dependancy to project
     - cargo install
         * installs a module to a project
+
+        # Rust Primitive Types
+
+In Rust, primitive types are the basic building blocks for representing simple data values. Rust is known for its strong static typing system, where variable types are explicitly declared at compile time.
+
+## Numeric Types
+
+### 1. Integer Types
+
+- **i8:** 8-bit signed integer.
+- **i16:** 16-bit signed integer.
+- **i32:** 32-bit signed integer.
+- **i64:** 64-bit signed integer.
+
+- **u8:** 8-bit unsigned integer.
+- **u16:** 16-bit unsigned integer.
+- **u32:** 32-bit unsigned integer.
+- **u64:** 64-bit unsigned integer.
+
+### 2. Floating-Point Types
+
+- **f32:** 32-bit floating-point number.
+- **f64:** 64-bit floating-point number.
+
+## Character Type
+
+- **char:** Represents a Unicode character.
+
+## Boolean Type
+
+- **bool:** Represents boolean values (true or false).
+
+## Example Usage:
+
+```rust
+// Numeric types
+let age: i32 = 25;
+let pi: f64 = 3.14;
+
+// Character type
+let grade: char = 'A';
+
+// Boolean type
+let is_student: bool = true;
+let is_working: bool = false;
+
+println!("Age: {}", age);
+println!("Grade: {}", grade);
+println!("Is Student: {}", is_student);
+``````

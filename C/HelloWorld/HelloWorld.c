@@ -6,6 +6,7 @@ const char * hi(){
 
 int main(){
     printf("Hello World!");
+    printf("\n");
     printf(hi());
 
     return 0;
