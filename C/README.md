@@ -8,7 +8,7 @@
 * Get MYSYS2 https://www.msys2.org/
     - Then run  `$ pacman -S mingw-w64-ucrt-x86_64-gcc`
     - Verify install with `gcc --version` in whatever CLI you prefer, maybe starting with the MYSYS2
-        - If  `gcc --version` doesn't bring anything back, you may need to add the binaries (bin) to the windows environment path
+        - If  `gcc --version` doesn't bring anything back, you may need to add the binaries (bin) to the windows environment [PATH](../Windows/README.md#adding-to-the-path-windows-11)
 
 
 Example:
