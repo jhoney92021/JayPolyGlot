@@ -1,12 +1,13 @@
 # jhoney's Java notes
 
-### installation
-
-- go here https://www.oracle.com/java/technologies/downloads/#jdk19-windows
-
 ### Quick Links
 
 - [Home](../README.md)
+
+### Installation
+
+- go here https://www.oracle.com/java/technologies/downloads/#jdk19-windows
+
 
 ### Java CLI Commands
 
