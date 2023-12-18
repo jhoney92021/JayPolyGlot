@@ -2,20 +2,13 @@
 
 ### Quick Links ###
 * [Mark Down](./MarkDown/README.md)
-
 * [Basic Algo Prompts](./BasicAlgorithmPromts.md)
-
 * [C Basics](./C/README.md)
-
 * [C# Basics](./CSharp/README.md)
-
 * [Java Script Basics](./JavaScript/README.md)
     - [Type Script Basics](./TypeScript/README.md)
-
 * [Python Basics](./Python/README.md)
-
 * [Ruby Basics](./Ruby/README.md)
-
 * [VB .NET Basics](./VisualBasic/README.md)
 
 ## Intent ##

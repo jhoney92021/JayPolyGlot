@@ -2,7 +2,6 @@
 
 ### Quick Links ###
 * [Home](../README.md)
-
 * [Basic Algo Prompts](../BasicAlgorithmPromts.md)
 
 ### Set Up For Windows ###
