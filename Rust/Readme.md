@@ -1,5 +1,7 @@
 # jhoney's rust notes #
-* [Main Notes](../README.md#quick-links)
+
+### Quick Links ###
+* [Home](../README.md)
 
 ## installation ##
 - just go here https://www.rust-lang.org/tools/install

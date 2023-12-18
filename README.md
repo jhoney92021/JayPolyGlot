@@ -1,7 +1,11 @@
 # JayPolyGlot -- learning programming basic cross lang #
 
 ### Quick Links ###
+* [Mark Down](./MarkDown/README.md)
+
 * [Basic Algo Prompts](./BasicAlgorithmPromts.md)
+
+* [C Basics](./C/README.md)
 
 * [C# Basics](./CSharp/README.md)
 

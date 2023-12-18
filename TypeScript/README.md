@@ -5,6 +5,7 @@
 * npm install -g typescript
 
 ### Quick Links ###
+* [Home](../README.md)
 * [Local CLI app set up](#js_local_cli_set_up)
 * [ts-node CLI Commands](#ts-node_cli_commands)
 * [npm CLI Commands](#npm_cli_commands)

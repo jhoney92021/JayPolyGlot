@@ -1,5 +1,7 @@
 # jhoney's VB notes #
-* [Main Notes](../README.md#quick-links)
+
+### Quick Links ###
+* [Home](../README.md)
 
 ### DotNet CLI Commands ###
 * dotnet new console --language vb -- creates new vb project

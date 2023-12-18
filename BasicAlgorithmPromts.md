@@ -1,5 +1,6 @@
 # jhoney's Basic Algorithm Prompts #
-[Main Notes](./README.md#quick-links)
+### Quick Links ###
+* [Home](./README.md)
 
 ## Suggestions ##
 - The first time around, there is no need to be fancy

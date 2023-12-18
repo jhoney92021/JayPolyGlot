@@ -5,6 +5,7 @@
 * go here https://www.oracle.com/java/technologies/downloads/#jdk19-windows
 
 ### Quick Links ###
+* [Home](../README.md)
 * [Stream Basics](./LinqBasics/README.md)
 * [Java CLI Commands](#dotnet_cli_commands)
 

@@ -1,7 +1,7 @@
 # jhoney's CSharp notes #
-* [Main Notes](../README.md#quick-links)
 
 ### Quick Links ###
+* [Home](../README.md)
 * [Linq Basics](./LinqBasics/README.md)
 * [Loops](./Documentation/Loops.md)
 * [DotNet CLI Commands](#dotnet_cli_commands)

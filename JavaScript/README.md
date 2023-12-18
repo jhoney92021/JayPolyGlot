@@ -2,6 +2,7 @@
 * [Main Notes](../README.md#quick-links)
 
 ### Quick Links ###
+* [Home](../README.md)
 * [Local CLI app set up](#js_local_cli_set_up)
 * [Node CLI Commands](#node_cli_commands)
 * [npm CLI Commands](#npm_cli_commands)
