@@ -1,7 +1,6 @@
 # jhoney's Git notes
 
 ### Quick Links
-
 - [Home](../README.md)
 
 # Getting Started with Git
