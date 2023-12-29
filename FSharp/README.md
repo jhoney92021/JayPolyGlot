@@ -23,3 +23,11 @@ number <- 1
 let mutable number = 0
 number <- number + 1
 ```
+
+##### WTF
+> So evidently commas are used in very bizarre ways.
+    `[|1; 12; 3; 4; 6|]`.... this is an int array
+    `[1; 12; 3; 4; 6]`.... this is an int list
+
+ > Meanwhile this `[|1, 12, 3, 4, 6|]`.... this is an array of tuples (IE: on demand anon objects)?
+    And this `[1, 12, 3, 4, 6]`.... this is a list of tuples (IE: on demand anon objects)?

@@ -5,9 +5,11 @@
     <RootNamespace>F_</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="BasicAlgorithms\PrintTo255.fs" />
+    <Compile Include="BasicAlgorithms\IterateArray.fs" />
     <Compile Include="BasicAlgorithms\PrintOddsTo255.fs" />
     <Compile Include="BasicAlgorithms\PrintSum.fs" />
+    <Compile Include="BasicAlgorithms\PrintTo255.fs" />
+    <Compile Include="BasicAlgorithms\TestValues.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 </Project>
