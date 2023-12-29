@@ -17,9 +17,9 @@ class Program
         //BasicAlgorithms.PrintOddsTo255_Do_While();
         //BasicAlgorithms.PrintOddsTo255_While();
 
-        //BasicAlgorithms.PrintSum_For();
-        //BasicAlgorithms.PrintSum_Do_While();
-        //BasicAlgorithms.PrintSum_While();
+        BasicAlgorithms.PrintSum_For();
+        BasicAlgorithms.PrintSum_Do_While();
+        BasicAlgorithms.PrintSum_While();
 
         //BasicAlgorithms.IterateArray_For(TestValues.TestIntegerArray);
         //BasicAlgorithms.IterateArray_Do_While(TestValues.TestIntegerArray);
@@ -81,23 +81,23 @@ class Program
         // ComparingPeople.GetIllPeople();
         // ComparingPeople.GetStandardPeople();
 
-        LinkedLists.LinkedList<string> linkedList = new LinkedLists.LinkedList<string>();
+        // LinkedLists.LinkedList<string> linkedList = new LinkedLists.LinkedList<string>();
 
-        linkedList.AddFirst(new LinkedLists.Node<string>("aaa"));
-        linkedList.AddFirst(new LinkedLists.Node<string>("bbb"));
-        linkedList.AddFirst(new LinkedLists.Node<string>("ccc"));
-        linkedList.AddFirst(new LinkedLists.Node<string>("ddd"));
+        // linkedList.AddFirst(new LinkedLists.Node<string>("aaa"));
+        // linkedList.AddFirst(new LinkedLists.Node<string>("bbb"));
+        // linkedList.AddFirst(new LinkedLists.Node<string>("ccc"));
+        // linkedList.AddFirst(new LinkedLists.Node<string>("ddd"));
 
-        linkedList.Traverse();
+        // linkedList.Traverse();
 
-        Console.WriteLine("Adding after");
-        linkedList.AddAfter(new LinkedLists.Node<string>("eee"), linkedList.First.Next.Next);
-        linkedList.Traverse();
+        // Console.WriteLine("Adding after");
+        // linkedList.AddAfter(new LinkedLists.Node<string>("eee"), linkedList.First.Next.Next);
+        // linkedList.Traverse();
 
-        var toRemove = linkedList.FindNode("ccc");
+        // var toRemove = linkedList.FindNode("ccc");
 
-        linkedList.RemoveThisNode(toRemove);
+        // linkedList.RemoveThisNode(toRemove);
 
-        linkedList.Traverse();
+        // linkedList.Traverse();
     }
 }
