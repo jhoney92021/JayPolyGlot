@@ -1,5 +1,5 @@
 module IterateArray
-open System
+
 let ForIn (numSeq: int array) = 
     for (item ) in numSeq do 
       printfn "~~~ Iterate Array For In: %d to 255 ~~" item

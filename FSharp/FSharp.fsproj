@@ -5,6 +5,7 @@
     <RootNamespace>F_</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="BasicAlgorithms\FindMaximumValue.fs" />
     <Compile Include="BasicAlgorithms\IterateArray.fs" />
     <Compile Include="BasicAlgorithms\PrintOddsTo255.fs" />
     <Compile Include="BasicAlgorithms\PrintSum.fs" />

@@ -9,12 +9,9 @@ printfn "Hello from F#"
 // PrintSum.ForIn
 // PrintSum.ForTo
 // PrintSum.WhileTo
-let numSeq = seq {1; 12; 3; 4; 6}
-let test = [|1; 12; 3; 4; 6|]
-IterateArray.ForIn TestValues.TestIntegerArray
-IterateArray.ForTo TestValues.TestIntegerArray
-IterateArray.WhileTo TestValues.TestIntegerArray
-
-// let seq1 = seq { for i in 1 .. 10 -> (i, i*i) }
-// for (a, asqr) in seq1 do
-//   printfn "%d squared is %d" a asqr
+// IterateArray.ForIn TestValues.TestIntegerArray
+// IterateArray.ForTo TestValues.TestIntegerArray
+// IterateArray.WhileTo TestValues.TestIntegerArray
+FindMaximumValue.ForIn TestValues.TestIntegerArray
+FindMaximumValue.ForTo TestValues.TestIntegerArray
+FindMaximumValue.WhileTo TestValues.TestIntegerArray

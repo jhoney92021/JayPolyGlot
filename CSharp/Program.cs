@@ -21,13 +21,13 @@ class Program
         // BasicAlgorithms.PrintSum_Do_While();
         // BasicAlgorithms.PrintSum_While();
 
-        BasicAlgorithms.IterateArray_For(TestValues.TestIntegerArray);
-        BasicAlgorithms.IterateArray_Do_While(TestValues.TestIntegerArray);
-        BasicAlgorithms.IterateArray_While(TestValues.TestIntegerArray);
+        // BasicAlgorithms.IterateArray_For(TestValues.TestIntegerArray);
+        // BasicAlgorithms.IterateArray_Do_While(TestValues.TestIntegerArray);
+        // BasicAlgorithms.IterateArray_While(TestValues.TestIntegerArray);
         
-        //BasicAlgorithms.FindMaximumValue_For(TestValues.TestIntegerArray);
-        //BasicAlgorithms.FindMaximumValue_Do_While(TestValues.TestIntegerArray);
-        //BasicAlgorithms.FindMaximumValue_While(TestValues.TestIntegerArray);
+        BasicAlgorithms.FindMaximumValue_For(TestValues.TestIntegerArray);
+        BasicAlgorithms.FindMaximumValue_Do_While(TestValues.TestIntegerArray);
+        BasicAlgorithms.FindMaximumValue_While(TestValues.TestIntegerArray);
         
         //BasicAlgorithms.FindAverageValue_For(TestValues.TestAverageArray);
         //BasicAlgorithms.FindAverageValue_Do_While(TestValues.TestAverageArray);
