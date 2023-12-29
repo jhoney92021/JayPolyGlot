@@ -1,8 +1,6 @@
-CSharp/Debug
-CSharp/obj
-CSharp/bin
-VisualBasic/Debug
-VisualBasic/obj
-VisualBasic/bin
+*/Debug
+*/obj
+*/bin
 Python/BasicAlgorithms/__pycache__
 .vscode
+*.sln
