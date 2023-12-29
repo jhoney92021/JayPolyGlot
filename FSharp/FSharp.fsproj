@@ -6,6 +6,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="BasicAlgorithms\PrintTo255.fs" />
+    <Compile Include="BasicAlgorithms\PrintOddsTo255.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 </Project>
