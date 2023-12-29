@@ -10,6 +10,7 @@
 * [C Basics](./C/README.md)
 * [Cpp Basics](./Cpp/README.md)
 * [C# Basics](./CSharp/README.md)
+* [F# Basics](./FSharp/README.md)
 * [Java Basics](./Java/README.md)
 * [Java Script Basics](./JavaScript/README.md)
     - [Type Script Basics](./TypeScript/README.md)
