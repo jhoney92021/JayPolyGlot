@@ -27,6 +27,11 @@ printfn "Hello from F#"
 // SquareArray.ForIn TestValues.TestIntegerArray
 // SquareArray.ForTo TestValues.TestIntegerArray
 // SquareArray.WhileTo TestValues.TestIntegerArray
-AbosoluteValueArray.ForIn TestValues.TestNegativeArray
-AbosoluteValueArray.ForTo TestValues.TestNegativeArray
-AbosoluteValueArray.WhileTo TestValues.TestNegativeArray
+// AbosoluteValueArray.ForIn TestValues.TestNegativeArray
+// AbosoluteValueArray.ForTo TestValues.TestNegativeArray
+// AbosoluteValueArray.WhileTo TestValues.TestNegativeArray
+
+let test = 
+    new Node.Node<string>(0, "test123", nullArg)
+
+printf "~~~ %O %d %O %O ~~~" test test.Index test.Value test.Next

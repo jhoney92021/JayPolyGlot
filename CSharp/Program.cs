@@ -42,9 +42,9 @@ class Program
         // BasicAlgorithms.SquareTheValuesOfAnArray_Do_While(TestValues.TestSquareArray);
         // BasicAlgorithms.SquareTheValuesOfAnArray_While(TestValues.TestSquareArray);
 
-        BasicAlgorithms.ConvertToAbsoluteValues_For(TestValues.TestNegativeArray);
-        BasicAlgorithms.ConvertToAbsoluteValues_Do_While(TestValues.TestNegativeArray);
-        BasicAlgorithms.ConvertToAbsoluteValues_While(TestValues.TestNegativeArray);
+        // BasicAlgorithms.ConvertToAbsoluteValues_For(TestValues.TestNegativeArray);
+        // BasicAlgorithms.ConvertToAbsoluteValues_Do_While(TestValues.TestNegativeArray);
+        // BasicAlgorithms.ConvertToAbsoluteValues_While(TestValues.TestNegativeArray);
 
         //BasicAlgorithms.GetMinMaxAverageValues_For(TestValues.TestLargeArray);
         //BasicAlgorithms.GetMinMaxAverageValues_Do_While(TestValues.TestLargeArray);
@@ -78,23 +78,23 @@ class Program
         // ComparingPeople.GetIllPeople();
         // ComparingPeople.GetStandardPeople();
 
-        // LinkedLists.LinkedList<string> linkedList = new LinkedLists.LinkedList<string>();
+        LinkedLists.LinkedList<string> linkedList = new LinkedLists.LinkedList<string>();
 
-        // linkedList.AddFirst(new LinkedLists.Node<string>("aaa"));
-        // linkedList.AddFirst(new LinkedLists.Node<string>("bbb"));
-        // linkedList.AddFirst(new LinkedLists.Node<string>("ccc"));
-        // linkedList.AddFirst(new LinkedLists.Node<string>("ddd"));
+        linkedList.AddFirst(new LinkedLists.Node<string>("aaa"));
+        linkedList.AddFirst(new LinkedLists.Node<string>("bbb"));
+        linkedList.AddFirst(new LinkedLists.Node<string>("ccc"));
+        linkedList.AddFirst(new LinkedLists.Node<string>("ddd"));
 
-        // linkedList.Traverse();
+        linkedList.Traverse();
 
-        // Console.WriteLine("Adding after");
-        // linkedList.AddAfter(new LinkedLists.Node<string>("eee"), linkedList.First.Next.Next);
-        // linkedList.Traverse();
+        Console.WriteLine("Adding after");
+        linkedList.AddAfter(new LinkedLists.Node<string>("eee"), linkedList.First.Next.Next);
+        linkedList.Traverse();
 
-        // var toRemove = linkedList.FindNode("ccc");
+        var toRemove = linkedList.FindNode("ccc");
 
-        // linkedList.RemoveThisNode(toRemove);
+        linkedList.RemoveThisNode(toRemove);
 
-        // linkedList.Traverse();
+        linkedList.Traverse();
     }
 }

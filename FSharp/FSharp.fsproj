@@ -16,6 +16,7 @@
     <Compile Include="BasicAlgorithms\PrintTo255.fs" />
     <Compile Include="BasicAlgorithms\SquareArray.fs" />
     <Compile Include="BasicAlgorithms\TestValues.fs" />
+    <Compile Include="LinkedList\Node.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 </Project>
