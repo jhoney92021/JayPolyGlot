@@ -12,6 +12,21 @@ printfn "Hello from F#"
 // IterateArray.ForIn TestValues.TestIntegerArray
 // IterateArray.ForTo TestValues.TestIntegerArray
 // IterateArray.WhileTo TestValues.TestIntegerArray
-FindMaximumValue.ForIn TestValues.TestIntegerArray
-FindMaximumValue.ForTo TestValues.TestIntegerArray
-FindMaximumValue.WhileTo TestValues.TestIntegerArray
+// FindMaximumValue.ForIn TestValues.TestIntegerArray
+// FindMaximumValue.ForTo TestValues.TestIntegerArray
+// FindMaximumValue.WhileTo TestValues.TestIntegerArray
+// FindAverageValue.ForIn TestValues.TestIntegerArray
+// FindAverageValue.ForTo TestValues.TestIntegerArray
+// FindAverageValue.WhileTo TestValues.TestIntegerArray
+// FindOddValues.ForIn TestValues.TestIntegerArray
+// FindOddValues.ForTo TestValues.TestIntegerArray
+// FindOddValues.WhileTo TestValues.TestIntegerArray
+// FindGreaterThanY.ForIn TestValues.TestIntegerArray 5
+// FindGreaterThanY.ForTo TestValues.TestIntegerArray 5
+// FindGreaterThanY.WhileTo TestValues.TestIntegerArray 5
+// SquareArray.ForIn TestValues.TestIntegerArray
+// SquareArray.ForTo TestValues.TestIntegerArray
+// SquareArray.WhileTo TestValues.TestIntegerArray
+AbosoluteValueArray.ForIn TestValues.TestNegativeArray
+AbosoluteValueArray.ForTo TestValues.TestNegativeArray
+AbosoluteValueArray.WhileTo TestValues.TestNegativeArray
