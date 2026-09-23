@@ -1,6 +1,7 @@
 # jhoney's Basic Algorithm Prompts #
 ### Quick Links ###
 * [Home](./README.md)
+* [Full Stack Prompts](./Full_Stack_Prompts.md)
 
 ## Suggestions ##
 - The first time around, there is no need to be fancy

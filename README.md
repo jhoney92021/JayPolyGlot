@@ -4,6 +4,7 @@
 * [Git](./Git/README.md)
 * [Mark Down](./MarkDown/README.md)
 * [Basic Algo Prompts](./BasicAlgorithmPromts.md)
+* [Full Stack Prompts](./Full_Stack_Prompts.md)
 * [C Windows Setup Guide](./C/WINDOWS_SETUP.md)
 * [C# Linux Setup & Test Guide](./CSharp/LINUX_SETUP.md)
 * [Windows Environment Setup](./Windows/README.md)
