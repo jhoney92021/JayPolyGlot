@@ -4,6 +4,7 @@
 * [Git](./Git/README.md)
 * [Mark Down](./MarkDown/README.md)
 * [Basic Algo Prompts](./BasicAlgorithmPromts.md)
+* [C Windows Setup Guide](./C/WINDOWS_SETUP.md)
 * [Windows Environment Setup](./Windows/README.md)
 
 ### Language Basics ###
