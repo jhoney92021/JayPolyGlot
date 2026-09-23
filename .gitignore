@@ -1,6 +1,6 @@
-*/Debug
-*/obj
-*/bin
+**/Debug/
+**/obj/
+**/bin/
 Python/BasicAlgorithms/__pycache__
 .vscode
 *.sln
