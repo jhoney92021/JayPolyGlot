@@ -3,6 +3,7 @@
 ### Quick Links
 
 - [Home](../README.md)
+- [Linux Setup & Test Guide](./LINUX_SETUP.md)
 - [Linq Basics](./LinqBasics/README.md)
 - [Loops](./Documentation/Loops.md)
 - [DotNet CLI Commands](#dotnet_cli_commands)
