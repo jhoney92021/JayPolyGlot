@@ -93,5 +93,5 @@ Below is how different language stacks implement this separation of concerns:
 
 *(Solutions for this prompt across languages will be linked here as they are added)*
 
-- [C# Tomodachi Backend](./CSharp/Tomodachi/README.md) *(Coming Soon)*
-- [C Tomodachi CLI State Machine](./C/Tomodachi/README.md) *(Coming Soon)*
+- **C#**: [Tomodachi README](./CSharp/Tomodachi/README.md) | [Domain Model (Pet.cs)](./CSharp/Tomodachi/Pet.cs) | [xUnit Tests](./CSharp/Tomodachi.Tests/TomodachiTests.cs)
+- **C**: [Tomodachi CLI State Machine](./C/Tomodachi/README.md) *(Coming Soon)*
