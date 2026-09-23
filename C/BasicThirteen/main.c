@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 // Define ANSI escape codes for text color
 #define RED_TEXT "\033[1;31m"
 #define GREEN_TEXT "\033[1;32m"
@@ -14,7 +15,7 @@ void printNewLine()
     printf("\n");
 }
 // Function to print text with color and formatting
-void printIntWithColor(const char *text, const int *value, const char *color)
+void printIntWithColor(const char *text, int value, const char *color)
 {
     // If color is NULL, default to GREEN_TEXT
     if (color == NULL)

@@ -15,6 +15,8 @@
     Print all of the integers 
     from 1 to 255 to console
 
+[PrintTo255.c](./C/BasicAlgorithms/PrintTo255.c)
+
 [PrintTo255.cs](./CSharp/BasicAlgorithms/PrintTo255.cs)
 
 [PrintTo255.js](./JavaScript/BasicAlgorithms/PrintTo255.js)
@@ -30,6 +32,8 @@
 
     Print all odd integers integers 
     from 1 to 255 to console
+
+[PrintOddsTo255.c](./C/BasicAlgorithms/PrintOddsTo255.c)
 
 [PrintOddsTo255.cs](./CSharp/BasicAlgorithms/PrintOddsTo255.cs)
 
@@ -52,6 +56,8 @@
     New number: 0 Sum: 0
     New number: 1 Sum: 1
     New Number: 2 Sum: 3
+
+[PrintSum.c](./C/BasicAlgorithms/PrintSum.c)
 
 [PrintSum.cs](./CSharp/BasicAlgorithms/PrintSum.cs)
 
@@ -76,6 +82,8 @@
      3
      4
 
+[IterateArray.c](./C/BasicAlgorithms/IterateArray.c)
+
 [IterateArray.cs](./CSharp/BasicAlgorithms/IterateArray.cs)
 
 [IterateArray.js](./JavaScript/BasicAlgorithms/IterateArray.js)
@@ -98,6 +106,8 @@
 
     or even a mix of positive numbers, negative numbers and zero.
 
+[FindMaximumValue.c](./C/BasicAlgorithms/FindMaximumValue.c)
+
 [FindMaximumValue.cs](./CSharp/BasicAlgorithms/FindMaximumValue.cs)
 
 [FindMaximumValue.js](./JavaScript/BasicAlgorithms/FindMaximumValue.js)
@@ -115,6 +125,8 @@
 
     input:  [2, 10, 3]
     output: 5
+
+[FindAverageValue.c](./C/BasicAlgorithms/FindAverageValue.c)
 
 [FindAverageValue.cs](./CSharp/BasicAlgorithms/FindAverageValue.cs)
 
@@ -136,6 +148,8 @@
     input:  [1, 12, 3, 4, 6]
     output: [1, 3]
 
+[FindOddValues.c](./C/BasicAlgorithms/FindOddValues.c)
+
 [FindOddValues.cs](./CSharp/BasicAlgorithms/FindOddValues.cs)
 
 [FindOddValues.js](./JavaScript/BasicAlgorithms/FindOddValues.js)
@@ -156,6 +170,8 @@
     input:  [1, 3, 5, 7], 3
     output: [5,7]
 
+[FindGreaterThanYValues.c](./C/BasicAlgorithms/FindGreaterThanYValues.c)
+
 [FindGreaterThanYValues.cs](./CSharp/BasicAlgorithms/FindGreaterThanYValues.cs)
 
 [FindGreaterThanYValues.js](./JavaScript/BasicAlgorithms/FindGreaterThanYValues.js)
@@ -174,6 +190,8 @@
     input:  [1,  5,  10, -10] 
     output: [1, 25, 100, 100]
 
+[SquareArrayValues.c](./C/BasicAlgorithms/SquareArrayValues.c)
+
 [SquareArrayValues.cs](./CSharp/BasicAlgorithms/SquareArrayValues.cs)
 
 [SquareArrayValues.js](./JavaScript/BasicAlgorithms/SquareArrayValues.js)
@@ -190,6 +208,8 @@
 
     input:  [1, -5, 10, -2]
     output: [1,  5, 10,  2]
+
+[AbsoluteValues.c](./C/BasicAlgorithms/AbsoluteValues.c)
 
 [AbsoluteValues.cs](./CSharp/BasicAlgorithms/AbsoluteValues.cs)
 
@@ -209,6 +229,8 @@
     input:  [1, -5, 10, -2, 1, 12, 3, 4, 6] 
     output: [-5, 10, -2, 1, 12, 3, 4, 6, 0]
     
+[ShiftArray.c](./C/BasicAlgorithms/ShiftArray.c)
+
 [ShiftArray.cs](./CSharp/BasicAlgorithms/ShiftArray.cs)
 
 [ShiftArray.js](./JavaScript/BasicAlgorithms/ShiftArray.js)
@@ -230,6 +252,8 @@
 
     input:  [-1, -3, 2, 12, 3, 4] 
     output: ["Fizz", "FizzBuzz", 2, "Buzz", "Buzz", 4].
+
+[FizzBuzz.c](./C/BasicAlgorithms/FizzBuzz.c)
 
 [FizzBuzz.cs](./CSharp/BasicAlgorithms/FizzBuzz.cs)
 

@@ -4,6 +4,15 @@
 
 - [Home](../README.md)
 - [Basic Algo Prompts](../BasicAlgorithmPromts.md)
+- [Basic 13 C Suite](./BasicAlgorithms/main.c)
+
+### Compiling and Running C Basic Algorithms
+
+```bash
+cd C/BasicAlgorithms
+make
+./runner
+```
 
 ### Set Up For Windows
 

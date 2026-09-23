@@ -4,3 +4,7 @@
 Python/BasicAlgorithms/__pycache__
 .vscode
 *.sln
+*.out
+*.o
+*.exe
+runner
