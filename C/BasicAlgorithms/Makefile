@@ -15,7 +15,10 @@ $(TARGET): $(OBJS)
 %.o: %.c basic_algorithms.h
 	$(CC) $(CFLAGS) -c $< -o $@
 
+run: $(TARGET)
+	./$(TARGET)
+
 clean:
 	rm -f $(OBJS) $(TARGET)
 
-.PHONY: all clean
+.PHONY: all run clean
