@@ -1,5 +1,5 @@
 using Xunit;
-using Tomodachi;
+using Tomodachi.Domain;
 
 namespace Tomodachi.Tests;
 

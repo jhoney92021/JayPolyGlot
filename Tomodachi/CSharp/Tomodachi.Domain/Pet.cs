@@ -1,4 +1,4 @@
-namespace Tomodachi;
+namespace Tomodachi.Domain;
 
 public class Pet
 {

@@ -1,4 +1,6 @@
-namespace Tomodachi;
+using Tomodachi.Domain;
+
+namespace Tomodachi.ConsoleApp;
 
 public class Program
 {
@@ -8,7 +10,7 @@ public class Program
         Console.WriteLine("        Welcome to Tomodachi (C#)       ");
         Console.WriteLine("========================================");
 
-        Pet pet = new Pet("Tama");
+        Pet pet = new("Tama");
         Console.WriteLine($"Created Pet: {pet.Name} | Hunger: {pet.Hunger} | Happiness: {pet.Happiness} | Energy: {pet.Energy}\n");
 
         Console.WriteLine("--- 1. Feeding Pet ---");
