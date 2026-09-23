@@ -30,3 +30,6 @@
 ## Docs ##
 * Each subfolder contains a dedicated README providing instructions on how to open, run, and install the respective codebase.
 * Detailed documentation ensures a smooth onboarding experience for users exploring different languages and concepts within the repository.
+
+## 🚀 TODO & Future Learning ##
+* [ ] Add **Swift Basics & Tomodachi Implementation** (`Swift/`) on Linux using SPM (`swift package`)
